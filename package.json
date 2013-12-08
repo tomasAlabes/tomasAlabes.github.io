@@ -1,0 +1,32 @@
+{
+  "name": "TomasAlabes.me",
+  "description": "Tomas Alabes personal website",
+  "version": "0.0.0",
+  "homepage": "http://tomasAlabes.me/",
+
+  "author": {
+    "name": "Tomas Alabes",
+    "email": "tomas.alabes@gmail.com",
+    "url": "http://tomasAlabes.me/"
+  },
+
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mit-license.org"
+    }
+  ],
+
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-requirejs": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-copy": "*"
+  }
+}
