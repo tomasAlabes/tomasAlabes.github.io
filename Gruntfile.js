@@ -90,6 +90,17 @@ module.exports = function(grunt) {
         ]
       }
     },
+    uncss: {
+      dist: {
+        files: {
+          // this reads dist/css/main.css and overwrites it with a lightweight one
+          'dist/css/main.css': ['./index.html']
+        }
+      },
+      options: {
+        compress: false
+      }
+    },
     connect: {
       development: {
         options: {
@@ -128,6 +139,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-uncss');
 
   // Default task:
   // 1. Lint js in js/ folder
@@ -137,7 +149,7 @@ module.exports = function(grunt) {
   // 5. Uglify the 4. script
   // 6. Create the main.css from main.scss, this scss contains deps like bootstrap and font-awesome
   // 7. Copy img/ and font-awesome/fonts folders needed for 6. styles
-  grunt.registerTask('default', ['jshint', 'clean', 'requirejs', 'concat', 'uglify', 'sass', 'copy']);
+  grunt.registerTask('default', ['jshint', 'clean', 'requirejs', 'concat', 'uglify', 'sass', /*'uncss',*/ 'copy']);
 
   grunt.registerTask('preview', ['connect:development']);
 
