@@ -4,8 +4,9 @@ require.config({
   paths: {
     "components": "bower_components",
     "jquery": "components/jquery/jquery"
-  },
+  }
 
-  name: "main"
+  // what you put here you could put it in the requirejs
+  // section of the Gruntfile.js
 
 });

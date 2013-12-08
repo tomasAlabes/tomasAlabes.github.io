@@ -31,6 +31,7 @@ module.exports = function(grunt) {
         stripBanners: true
       },
       dist: {
+        // we concat requirejs with our js code (created in requirejs task)
         src: ['bower_components/requirejs/require.js', '<%= concat.dist.dest %>'],
         dest: 'dist/js/app.js'
       }
@@ -71,7 +72,8 @@ module.exports = function(grunt) {
     requirejs: {
       compile: {
         options: {
-          baseUrl: "js",
+          name: "main",
+          baseUrl: "js/",
           mainConfigFile: "config.js",
           out: "<%= concat.dist.dest %>"
         }
@@ -84,7 +86,7 @@ module.exports = function(grunt) {
           {expand: true, src: ['img/*'], dest: 'dist/'},
 
           // makes all src relative to cwd
-          {expand: true, cwd: 'bower_components/font-awesome/', src: ['fonts/*'], dest: 'dist/'},
+          {expand: true, cwd: 'bower_components/font-awesome/', src: ['fonts/*'], dest: 'dist/'}
         ]
       }
     },
@@ -127,9 +129,18 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-copy');
 
-  // Default task.
+  // Default task:
+  // 1. Lint js in js/ folder
+  // 2. Clean dist folder
+  // 3. Create the app.js from the main.js script dependency tree
+  // 4. Concat js from 3. with requirejs lib
+  // 5. Uglify the 4. script
+  // 6. Create the main.css from main.scss, this scss contains deps like bootstrap and font-awesome
+  // 7. Copy img/ and font-awesome/fonts folders needed for 6. styles
   grunt.registerTask('default', ['jshint', 'clean', 'requirejs', 'concat', 'uglify', 'sass', 'copy']);
+
   grunt.registerTask('preview', ['connect:development']);
+
   grunt.registerTask('preview-live', ['default', 'connect:production']);
 
 };
