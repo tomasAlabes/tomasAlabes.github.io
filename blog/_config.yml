@@ -1,4 +1,6 @@
-name: Your New Jekyll Site
+name: TomasAlabes.me blog
+mail: tomas.alabes@gmail.com
+
 markdown: redcarpet
 pygments: true
 

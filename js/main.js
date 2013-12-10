@@ -1,6 +1,4 @@
-require([], function(){
+require(['jquery'], function ($) {
   "use strict";
-
-  console.log('Hello World!');
 
 });

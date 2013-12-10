@@ -20,20 +20,35 @@
 
 <!-- Side Menu -->
 <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
-
-<div id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-default btn-sm pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand"><a href="">TomasAlabes.me</a></li>
-        <li><a href="">Home</a></li>
-        <li><a href="blog/_site/index.html">Blog</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="experiments.html">Experiments</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Tomas Alabes .me</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/blog/_site/index.html">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/tomasAlabes" class="fa fa-github fa-2x"></a></li>
+                <li><a href="http://www.linkedin.com/in/tomasalabes" class="fa fa-linkedin fa-2x"></a></li>
+                <li><a href="https://twitter.com/TomasAlabes" class="fa fa-twitter fa-2x"></a></li>
+                <li><a href="https://plus.google.com/u/0/+Tom%C3%A1sAlab%C3%A9s/about" class="fa fa-google-plus fa-2x"></a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
 </div>
-<!-- /Side Menu -->
 
 <!-- Full Page Image Header Area -->
 <div id="top" class="header">
@@ -45,10 +60,10 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <ul class="list-inline">
-                        <li><a href="https://github.com/tomasAlabes" class="fa fa-github-square fa-3x"></a></li>
-                        <li><a href="http://www.linkedin.com/in/tomasalabes" class="fa fa-linkedin-square fa-3x"></a></li>
-                        <li><a href="https://twitter.com/TomasAlabes" class="fa fa-twitter-square fa-3x"></a></li>
-                        <li><a href="https://plus.google.com/u/0/+Tom%C3%A1sAlab%C3%A9s/about" class="fa fa-google-plus-square fa-3x"></a></li>
+                        <li><a href="https://github.com/tomasAlabes" class="fa fa-github-square fa-4x"></a></li>
+                        <li><a href="http://www.linkedin.com/in/tomasalabes" class="fa fa-linkedin-square fa-4x"></a></li>
+                        <li><a href="https://twitter.com/TomasAlabes" class="fa fa-twitter-square fa-4x"></a></li>
+                        <li><a href="https://plus.google.com/u/0/+Tom%C3%A1sAlab%C3%A9s/about" class="fa fa-google-plus-square fa-4x"></a></li>
                     </ul>
                 </div>
             </div>
@@ -61,20 +76,6 @@
 <!-- JavaScript -->
 <script src="bower_components/jquery/jquery.min.js"></script>
 <script src="bower_components/bootstrap-sass/dist/js/bootstrap.js"></script>
-
-<!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-<script>
-    $("#menu-close").click(function (e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-</script>
-<script>
-    $("#menu-toggle").click(function (e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-</script>
 
 <script type="application/javascript" src="dist/js/app.min.js"></script>
 
