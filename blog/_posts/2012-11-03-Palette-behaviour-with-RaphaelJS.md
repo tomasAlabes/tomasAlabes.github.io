@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "Palette behaviour with RaphaelJS"
+description: "Creating a palette behaviour with RaphaelJS library"
 date:   2012-11-03 12:30:16
-categories: raphael javascript
+categories: [raphaeljs, javascript, svg, tutorial]
+comments: true
+share: true
 ---
 
 Hi all, welcome to my new blog!
-For my first entry I chose RaphaelJS, an svg library to manipulate SVG with javascript in a easier way than directly with the SVG DOM, but of course losing some of the svg spec capabilities.
+For my first entry I chose [RaphaelJS](raphaeljs.com), an svg library to manipulate SVG with javascript in a easier way than directly with the SVG DOM, but of course losing some of the svg spec capabilities.
 I've been working with Raphaeljs for a while now and I would like to share some code with you for a nice behaviour, the palette behaviour.
 
 First of all, in what consists my palette behaviour? It's like in many editors, where you have elements on the side that you can add by drag and drop to a 'canvas'.
