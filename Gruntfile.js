@@ -20,7 +20,7 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {
-          "dist/css/main.css": "sass/main.scss"
+          "dist/css/main.css": "scss/main.scss"
         }
 
       }
@@ -60,6 +60,20 @@ module.exports = function(grunt) {
       }
     },
     watch: {
+      options:{
+        livereload: true
+      },
+      html: {
+        files: ['*.html']
+      },
+      js: {
+        files: ['js/**/*.js'],
+        tasks: ['jshint']
+      },
+      css: {
+        files: ['scss/**/*.scss'],
+        tasks: ['sass']
+      },
       gruntfile: {
         files: '<%= jshint.gruntfile.src %>',
         tasks: ['jshint:gruntfile']
@@ -104,26 +118,12 @@ module.exports = function(grunt) {
     connect: {
       development: {
         options: {
-          keepalive: true
         }
       },
       production: {
         options: {
           keepalive: true,
-          port: 8000,
-          middleware: function(connect, options) {
-            return [
-              // rewrite requirejs to the compiled version
-              function(req, res, next) {
-                if (req.url === '/bower_components/requirejs/require.js') {
-                  req.url = '/dist/js/app.min.js';
-                }
-                next();
-              },
-              connect.static(options.base)
-
-            ];
-          }
+          port: 8000
         }
       }
     }
@@ -151,7 +151,7 @@ module.exports = function(grunt) {
   // 7. Copy img/ and font-awesome/fonts folders needed for 6. styles
   grunt.registerTask('default', ['jshint', 'clean', 'requirejs', 'concat', 'uglify', 'sass', /*'uncss',*/ 'copy']);
 
-  grunt.registerTask('preview', ['connect:development']);
+  grunt.registerTask('dev', ['connect:development', 'watch']);
 
   grunt.registerTask('preview-live', ['default', 'connect:production']);
 

@@ -1,6 +1,11 @@
 name: TomasAlabes.me blog
 mail: tomas.alabes@gmail.com
 
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+includes: ./includes
+
 markdown: redcarpet
 pygments: true
 
