@@ -149,10 +149,13 @@ module.exports = function(grunt) {
   // 5. Uglify the 4. script
   // 6. Create the main.css from main.scss, this scss contains deps like bootstrap and font-awesome
   // 7. Copy img/ and font-awesome/fonts folders needed for 6. styles
-  grunt.registerTask('default', ['jshint', 'clean', 'requirejs', 'concat', 'uglify', 'sass', /*'uncss',*/ 'copy']);
-
-  grunt.registerTask('dev', ['connect:development', 'watch']);
+  grunt.registerTask('dev', ['default', 'connect:development', 'watch']);
 
   grunt.registerTask('preview-live', ['default', 'connect:production']);
+
+  grunt.registerTask('build-dev', ['jshint', 'clean', 'requirejs', 'concat', 'sass', 'copy']);
+  grunt.registerTask('build-prod', ['jshint', 'clean', 'requirejs', 'concat', 'uglify', 'sass', 'uncss', 'copy']);
+
+  grunt.registerTask('default', ['build-prod']);
 
 };
