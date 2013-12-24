@@ -80,7 +80,9 @@ exports.getLatestProfilePicture = function (tweeter, callback) {
 
 To use it, import it from other js
 
+{% highlight javascript %}
 var twitterUtil = require('path/to/twitterUtil');
+{% endhighlight %}
 
 Now go get Twitter data and use it for good!!
 
