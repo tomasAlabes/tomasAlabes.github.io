@@ -1,0 +1,41 @@
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../../img/Top_view.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Text with my name */
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+
+  .myName {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+  }
+
+}
+
+.socialList {
+
+  margin-top: 20px;
+
+  li {
+    margin-right: 10px;
+  }
+
+}
