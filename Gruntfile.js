@@ -64,14 +64,14 @@ module.exports = function(grunt) {
         livereload: true
       },
       html: {
-        files: ['*.html']
+        files: ['*.html', 'projects/projects.html']
       },
       js: {
         files: ['js/**/*.js'],
         tasks: ['jshint']
       },
       css: {
-        files: ['scss/**/*.scss'],
+        files: ['scss/**/*.scss', 'projects/projects.css'],
         tasks: ['sass']
       },
       gruntfile: {

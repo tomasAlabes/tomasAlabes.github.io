@@ -1,0 +1,65 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body{
+    background: url('images/background/background.png') repeat;
+}
+
+/* PROJECT CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.projects {
+    margin-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* PROJECT
+------------------------- */
+
+.project-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.project-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.project{
+
+}
+
+.projectDesc {
+
+}
+
+.projectImg {
+
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+    /* Remove the edge padding needed for mobile */
+    .projects {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .project-heading {
+        font-size: 50px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .project-heading {
+        /*margin-top: 120px;*/
+    }
+}
