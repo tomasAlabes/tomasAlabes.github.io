@@ -3,7 +3,7 @@ layout: post
 title:  "Javascript for newbies"
 description: "Presentation for people who want to start learning about JS"
 date:   2013-02-18 12:30:16
-categories: [javascript, raphaeljs, svg, tutorial]
+tags: [javascript, raphaeljs, svg, tutorial]
 comments: true
 share: true
 ---

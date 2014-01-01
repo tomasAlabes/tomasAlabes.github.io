@@ -3,7 +3,7 @@ layout: post
 title:  "Use RaphaëlJS with AMD (recent official feature)"
 description: "Showing the recent AMD feature of RaphaelJS"
 date:   2013-05-13 12:30:16
-categories: [javascript, raphaeljs, svg, tutorial]
+tags: [javascript, raphaeljs, svg, tutorial]
 comments: true
 share: true
 ---

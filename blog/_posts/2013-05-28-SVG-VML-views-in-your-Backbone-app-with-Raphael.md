@@ -3,7 +3,7 @@ layout: post
 title:  "SVG/VML views in your Backbone app with Raphael"
 description: "Adding SVG/VML views to your backbone app"
 date:   2013-05-28 12:30:16
-categories: [javascript, raphaeljs, svg, tutorial, backbonejs]
+tags: [javascript, raphaeljs, svg, tutorial, backbonejs]
 comments: true
 share: true
 ---

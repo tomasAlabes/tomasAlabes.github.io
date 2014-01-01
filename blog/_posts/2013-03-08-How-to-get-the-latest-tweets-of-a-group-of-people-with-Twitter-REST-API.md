@@ -3,7 +3,7 @@ layout: post
 title:  "How to get the latest tweets of a group of people with Twitter REST API"
 description: "How to get the latest tweets of a group of people with Twitter REST API"
 date:   2013-03-08 12:30:16
-categories: [javascript, node, rest, twitter API, tutorial]
+tags: [javascript, node, rest, twitter API, tutorial]
 comments: true
 share: true
 ---

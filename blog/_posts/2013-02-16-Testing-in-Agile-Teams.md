@@ -3,7 +3,7 @@ layout: post
 title:  "Testing in Agile Teams"
 description: "Presentation about Testing in Agile Teams"
 date:   2012-02-16 12:30:16
-categories: [testing, agile, presentation]
+tags: [testing, agile, presentation]
 comments: true
 share: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Convert SVG to Raphael in one step"
 description: "Quick way to convert SVG to Raphael in one step"
 date:   2013-02-17 12:30:16
-categories: [javascript, raphaeljs, svg, tutorial]
+tags: [javascript, raphaeljs, svg, tutorial]
 comments: true
 share: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Introduction to RaphaelJS"
 description: "Presentation to start learning RaphaelJS"
 date:   2013-03-13 12:30:16
-categories: [presentation, raphaeljs, svg, tutorial]
+tags: [presentation, raphaeljs, svg, tutorial]
 comments: true
 share: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Using NodeJS oAuth module to communicate with Twitter REST API 1.1"
 description:  "Using NodeJS oAuth module to communicate with Twitter REST API 1.1"
 date:   2013-02-06 12:30:16
-categories: [javascript, twitter API, tutorial]
+tags: [javascript, twitter API, tutorial]
 comments: true
 share: true
 ---
