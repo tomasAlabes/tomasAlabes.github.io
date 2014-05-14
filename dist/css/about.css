@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: url("/img/backgrounds/full/bikeLandscape.JPG") center;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#contactLinks {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 6px;
+  text-align: center;
+}
+#contactLinks a {
+  color: lightblue;
+  letter-spacing: 20px;
+}
+#contactLinks h1 {
+  color: #f5f5f5;
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+  body {
+    background: url("/img/backgrounds/background.png");
+  }
+}

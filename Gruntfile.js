@@ -21,8 +21,8 @@ module.exports = function(grunt) {
         },
         files: {
           "dist/css/index.css": "scss/index.scss",
-          "dist/css/projects.css": "scss/projects.scss"
-
+          "dist/css/projects.css": "scss/projects.scss",
+          "dist/css/about.css": "scss/about.scss"
         }
 
       }
@@ -66,7 +66,7 @@ module.exports = function(grunt) {
         livereload: true
       },
       html: {
-        files: ['*.html', 'projects/projects.html']
+        files: ['*.html', 'projects/projects.html', 'about/about.html']
       },
       js: {
         files: ['js/**/*.js'],
