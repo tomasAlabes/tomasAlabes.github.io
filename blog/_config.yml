@@ -2,8 +2,8 @@ title:            TomasAlabes.me Blog
 description:      TomasAlabes.me Blog
 disqus_shortname: tomasalabesmeblog
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:8000/blog/_site
-#url:              http://tomasalabes.s3-website-us-east-1.amazonaws.com/blog/_site
+#url:              http://localhost:8000/blog/_site
+url:              http://tomasalabes.me/blog/_site
 
 # Owner/author information
 owner:
@@ -44,11 +44,9 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Argentina/Buenos_Aires
 future:      true
-pygments:    true
+highlighter: pygments
 markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 # Amount of post to show on home page
 paginate: 5
@@ -58,14 +56,16 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: true
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
 
   coderay:
-    coderay_line_numbers: nil
+    coderay_wrap: div
+    coderay_line_numbers: inline
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
-    coderay_css: class
+    coderay_css: style
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
