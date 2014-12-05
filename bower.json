@@ -23,6 +23,8 @@
   "dependencies": {
     "bootstrap-sass": "~3.0.2",
     "requirejs": "~2.1.5",
-    "font-awesome": "~4.0.3"
+    "font-awesome": "~4.0.3",
+    "polymer": "Polymer/polymer#~0.5.1",
+    "webcomponentsjs": "~0.5.1"
   }
 }

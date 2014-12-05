@@ -99,7 +99,7 @@ module.exports = function(grunt) {
       main: {
         files: [
           // includes files within path
-          {expand: true, src: ['img/*'], dest: 'dist/'},
+          {expand: true, src: ['img/**/*'], dest: 'dist/'},
 
           // makes all src relative to cwd
           {expand: true, cwd: 'bower_components/font-awesome/', src: ['fonts/*'], dest: 'dist/'}

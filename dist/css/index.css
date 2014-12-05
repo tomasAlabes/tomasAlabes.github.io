@@ -38,3 +38,10 @@ body {
 .socialList li {
   margin-right: 10px;
 }
+.socialList a:hover {
+  text-decoration: none;
+}
+
+.photoOfMe {
+  margin-bottom: 15px;
+}
