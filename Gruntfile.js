@@ -90,7 +90,6 @@ module.exports = function(grunt) {
         options: {
           name: "main",
           baseUrl: "js/",
-          mainConfigFile: "config.js",
           out: "<%= concat.dist.dest %>"
         }
       }
