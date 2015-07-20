@@ -18,7 +18,7 @@ First of all you must have node installed.
 Then you would download the official repo but it has a bug with the latest node version, so download mine which has the fix.
 Now is time to convert your svg file, I took this svg as example:
 
-<a href="http://3.bp.blogspot.com/-tVwEgKwJeWs/UR-ovH8xvhI/AAAAAAAAATQ/wb6OXxQ9yl8/s1600/vectorstock_5307.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="http://3.bp.blogspot.com/-tVwEgKwJeWs/UR-ovH8xvhI/AAAAAAAAATQ/wb6OXxQ9yl8/s320/vectorstock_5307.jpg" width="304" /></a>
+<img src="/blog/images/eagle.jpg"/>
 
 (pretty cool huh? you can find the free svg here)
 
