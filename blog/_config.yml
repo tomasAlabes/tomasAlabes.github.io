@@ -1,71 +1,72 @@
-title:            TomasAlabes.me Blog
-description:      TomasAlabes.me Blog
-disqus_shortname: tomasalabesmeblog
-#Your site's domain goes here. Leave localhost server or blank when working locally.
-#url:              http://localhost:8000/blog/_site
-url:              http://tomasalabes.me/blog/_site
-
-# Owner/author information
-owner:
-  name:          Tomas Alabes
-  avatar:         avatar.jpg
-  bio:            "I'm Tomas Alabes, software engineer. Working at Oracle HQ at San Fransisco."
-  email:          tomas.alabes@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: TomasAlabes
-  facebook:
-  github: tomasAlabes
-  stackexchange: talabes
-  linkedin: tomasAlabes
-  instagram:
-  flickr:
-  tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus: +Tom%C3%A1sAlab%C3%A9s/about
-
-# Background image to be tiled on all pages
-#background: ps_neutral.png
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-#  - title: Theme Setup
-#    url: /theme-setup
-#  - title: External Link
-#    url: http://mademistakes.com
-#    external: true
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Los_Angeles
-future:      true
+# Build settings
+markdown: redcarpet
 highlighter: pygments
-markdown:    kramdown
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
+gems:
+  - jemoji
 
-# Amount of post to show on home page
-paginate: 5
+# Site settings
+title: "Tomas Alabes' Blog"
+description: > # this means to ignore newlines until "email:"
+   My personal site's Blog
+  
+#email: a-mail@mail.mail
+#blog logo
+logo: "/assets/images/logos/final.png"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+name: 'Tomas Alabes'
+author: 'Tomas Alabes'
+author_image: "/assets/images/author.png"
 
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+paginate:	5
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+#parentUrl: "http://tomasalabes.me/"
+parentUrl: "http://localhost:8000/"
+#url: "http://tomasalabes.me/blog/_site" # the base hostname & protocol for your site
+url: "http://localhost:8000/blog/_site" # the base hostname & protocol for your site
+#baseurl: "http://tomasalabes.me/blog/_site"
+baseurl: "/blog/_site"
+#used to display twitter cards
+twitter_handle: '@tomasAlabes'
+
+#fill in disqus shortname to use disqus
+disqus: tomasalabesmeblog
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/tomasAlabes
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/tomasAlabes
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+
+  - icon: linkedin
+    url:  https://www.linkedin.com/in/tomasalabes
+    desc: Contact me via linkedin
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
