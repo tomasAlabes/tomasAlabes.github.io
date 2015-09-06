@@ -21,11 +21,10 @@ author_image: "/assets/images/author.png"
 
 paginate:	5
 
-#parentUrl: "http://tomasalabes.me/"
-parentUrl: "http://localhost:8000/"
-#url: "http://tomasalabes.me/blog/_site" # the base hostname & protocol for your site
-url: "http://localhost:8000/blog/_site" # the base hostname & protocol for your site
-#baseurl: "http://tomasalabes.me/blog/_site"
+parentUrl: "http://tomasalabes.me/"
+#parentUrl: "http://localhost:8000/"
+url: "http://tomasalabes.me/blog/_site" # the base hostname & protocol for your site
+#url: "http://localhost:8000/blog/_site" # the base hostname & protocol for your site
 baseurl: "/blog/_site"
 #used to display twitter cards
 twitter_handle: '@tomasAlabes'
