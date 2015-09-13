@@ -2,64 +2,38 @@
 -------------------------------------------------- */
 
 body{
-    background: url('../img/backgrounds/background.png') repeat;
-}
-
-/* PROJECT CONTENT
--------------------------------------------------- */
-
-/* Pad the edges of the mobile views a bit */
-.projects {
-    margin-top: 100px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* PROJECT
-------------------------- */
-
-.project-divider {
-    margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.project-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -1px;
-}
-
-.project{
 
 }
 
-.projectDesc {
-
+.about-section {
+    margin-bottom: 50px;
 }
 
-.projectImg {
+.about-logo {
+    width: 180px;
+}
 
+.navbar-brand {
+    padding: 5px 15px 5px 5px;
+}
+
+.page-header{
+    margin: 60px 0;
+}
+
+.about-section{
+    font-size: 16px;
 }
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
-
-    /* Remove the edge padding needed for mobile */
-    .projects {
-        padding-left: 0;
-        padding-right: 0;
+@media (max-width: 768px) {
+    .explanation {
+        margin-top: 30px;
     }
-
-    .project-heading {
-        font-size: 50px;
-    }
-
 }
 
 @media (min-width: 992px) {
-    .project-heading {
-        /*margin-top: 120px;*/
-    }
+
 }

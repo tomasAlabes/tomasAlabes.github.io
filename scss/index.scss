@@ -6,6 +6,10 @@ body {
   width: 100%;
 }
 
+.navbar-brand {
+  padding: 5px 15px 5px 5px;
+}
+
 .header {
   display: table;
   height: 100%;
@@ -26,14 +30,6 @@ body {
   text-align: center;
   color: #ffffff;
 
-  .myName {
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 0;
-    margin: 0;
-    font-size: 4.5em;
-    font-weight: 700;
-  }
-
 }
 
 .socialList {
@@ -50,6 +46,6 @@ body {
 
 }
 
-.photoOfMe{
+.brandImage{
   margin-bottom: 15px;
 }
