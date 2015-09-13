@@ -3,9 +3,8 @@ layout: post
 title:  "Palette behaviour with RaphaelJS"
 description: "Creating a palette behaviour with RaphaelJS library"
 date:   2012-11-03 12:30:16
-tags: [raphaeljs, javascript, svg, tutorial]
-comments: true
-share: true
+categories: web-development svg
+tags: raphaeljs, javascript, svg, tutorial
 ---
 
 Hi all, welcome to my new blog!

@@ -3,9 +3,8 @@ layout: post
 title:  "How to get the latest tweets of a group of people with Twitter REST API"
 description: "How to get the latest tweets of a group of people with Twitter REST API"
 date:   2013-03-08 12:30:16
-tags: [javascript, node, rest, twitter API, tutorial]
-comments: true
-share: true
+categories: web-development
+tags: javascript, node, rest, twitter API, tutorial
 ---
 
 This seems like a easy or at least common task of twitter right? Well...I thought so, but it gave me a headache for half an hour.

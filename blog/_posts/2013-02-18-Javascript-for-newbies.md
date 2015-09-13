@@ -3,9 +3,8 @@ layout: post
 title:  "Javascript for newbies"
 description: "Presentation for people who want to start learning about JS"
 date:   2013-02-18 12:30:16
-tags: [javascript, raphaeljs, svg, tutorial]
-comments: true
-share: true
+categories: web-development
+tags: javascript, raphaeljs, svg, tutorial
 ---
 
 I've made another presentation to my colleagues at work and I would like to share it. With you, Javascript Basics.

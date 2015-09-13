@@ -3,9 +3,8 @@ layout: post
 title:  "Turn off the lights! getUserMedia API experiment"
 description:  "getUserMedia API experiment"
 date:   2013-01-24 12:30:16
-tags: [javascript, webrtc , html5, tutorial, experiment]
-comments: true
-share: true
+categories: web-development
+tags: javascript, webrtc , html5, tutorial, experiment
 ---
 
 Hi folks, 2nd post here :)

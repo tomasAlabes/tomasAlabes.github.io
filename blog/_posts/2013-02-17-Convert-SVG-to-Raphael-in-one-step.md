@@ -3,9 +3,8 @@ layout: post
 title:  "Convert SVG to Raphael in one step"
 description: "Quick way to convert SVG to Raphael in one step"
 date:   2013-02-17 12:30:16
-tags: [javascript, raphaeljs, svg, tutorial]
-comments: true
-share: true
+categories: web-development svg
+tags: javascript, raphaeljs, svg, tutorial
 ---
 
 Perhaps you have heard of the [Raphaël](raphaeljs.com) library. Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web. It's open-source and its one of the most famous libraries on github, the most popular for svg manipulation on the browser.

@@ -3,9 +3,8 @@ layout: post
 title:  "Testing in Agile Teams"
 description: "Presentation about Testing in Agile Teams"
 date:   2012-02-16 12:30:16
-tags: [testing, agile, presentation]
-comments: true
-share: true
+categories: web-development
+tags: testing, agile, presentation
 ---
 
 I have just read this book: Agile Testing: A Practical Guide for Testers and Agile Teams by Lisa Crispin and Janet Gregory, and I would like to share this presentation I've given at work about it.

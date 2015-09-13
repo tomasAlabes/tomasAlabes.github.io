@@ -3,9 +3,8 @@ layout: post
 title:  "Book review: Learning Raphaël JS Vector Graphics"
 description: "Book review: Learning Raphaël JS Vector Graphics"
 date:   2013-03-13 12:30:16
-tags: [raphaeljs, svg, book, review]
-comments: true
-share: true
+categories: web-development book-review
+tags: raphaeljs, svg, book, review
 ---
 
 Book Review: Learning Raphaël JS Vector Graphics

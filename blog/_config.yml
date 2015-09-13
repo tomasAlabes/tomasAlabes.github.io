@@ -6,8 +6,7 @@ gems:
 
 # Site settings
 title: "Tomas Alabes' Blog"
-description: > # this means to ignore newlines until "email:"
-   My personal site's Blog
+description: My personal site's Blog
   
 #email: a-mail@mail.mail
 #blog logo
@@ -17,6 +16,11 @@ cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
 name: 'Tomas Alabes'
 author: 'Tomas Alabes'
+
+author:
+  name: "Tomas Alabes"
+  bio: "I'm a Software Engineer who is making a living understanding the web. :)"
+
 author_image: "/assets/images/author.png"
 
 paginate:	5

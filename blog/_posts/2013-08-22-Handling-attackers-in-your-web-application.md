@@ -3,9 +3,8 @@ layout: post
 title:  "Handling attackers in your web application"
 description: "Techniques for handling attackers in your web application"
 date:   2013-03-13 12:30:16
-tags: [security, web]
-comments: true
-share: true
+categories: web-development
+tags: security, web
 ---
 
 Anyone designing an application for which security is remotely important must assume that it will be directly targeted by dedicated and skilled attackers. A key function of the application’s security mechanisms is being able to handle and react to these attacks in a controlled way.

@@ -3,9 +3,8 @@ layout: post
 title:  "Introduction to RaphaelJS"
 description: "Presentation to start learning RaphaelJS"
 date:   2013-03-13 12:30:16
-tags: [presentation, raphaeljs, svg, tutorial]
-comments: true
-share: true
+categories: web-development presentation
+tags: presentation, raphaeljs, svg, tutorial
 ---
 
 Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web. If you want to create your own specific chart or image crop and rotate widget, for example, you can achieve it simply and easily with this library.

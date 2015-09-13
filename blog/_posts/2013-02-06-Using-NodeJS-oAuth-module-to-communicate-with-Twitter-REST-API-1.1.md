@@ -3,9 +3,8 @@ layout: post
 title:  "Using NodeJS oAuth module to communicate with Twitter REST API 1.1"
 description:  "Using NodeJS oAuth module to communicate with Twitter REST API 1.1"
 date:   2013-02-06 12:30:16
-tags: [javascript, twitter API, tutorial]
-comments: true
-share: true
+categories: web-development
+tags: javascript, twitter API, tutorial
 ---
 
 Hi, lets see how to use the 'oauth' module in nodeJS, for getting information from the Twitter API.

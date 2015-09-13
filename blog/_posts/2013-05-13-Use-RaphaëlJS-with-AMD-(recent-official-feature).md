@@ -3,9 +3,8 @@ layout: post
 title:  "Use RaphaëlJS with AMD (recent official feature)"
 description: "Showing the recent AMD feature of RaphaelJS"
 date:   2013-05-13 12:30:16
-tags: [javascript, raphaeljs, svg, tutorial]
-comments: true
-share: true
+categories: web-development svg
+tags: javascript, raphaeljs, svg, tutorial
 ---
 
 Hi all, I'm the collaborator of RaphaëlJS github repo. (Don't know SVG or Raphaël?? Check it out!, really cool things can be done with it).

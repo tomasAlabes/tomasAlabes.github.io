@@ -61,8 +61,8 @@ layout: default
             <header class="post-header">
               <h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+            <section class="post-description" itemprop="description">
+              <p>{{ post.description | strip_html | truncatewords: 50 }}</p>
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
