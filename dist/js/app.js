@@ -1,4 +1,4 @@
-/*! TomasAlabes.me - v0.0.0 - 2015-09-12
+/*! TomasAlabes.me - v0.0.0 - 2015-09-13
 * http://tomasAlabes.me/
 * Copyright (c) 2015 Tomas Alabes; Licensed MIT */
 //Not using strict: uneven strict support in browsers, #392, and causes
