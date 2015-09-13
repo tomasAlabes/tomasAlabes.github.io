@@ -7,6 +7,8 @@ categories: web-development svg
 tags: javascript, raphaeljs, svg, tutorial, backbonejs
 ---
 
+Hi! Now:
+
 Presenting [backbone.raphael](https://github.com/tomasAlabes/backbone.raphael)
 
 You may already know the famous [Backbone](http://backbonejs.org/) javascript library that lets you build an MV* architecture in the client. And perhaps you also know Raphael, that gives you the opportunity to abstract you from the browser you are using and let you work with SVG o VML indifferently.
