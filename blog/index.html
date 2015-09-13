@@ -9,8 +9,11 @@ layout: default
 </div>
 
 <header class="blog-header">
+
     {% if site.logo %}
-      <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo | prepend: site.url }}');">{{ site.title }}</a>
+      <a href="{{site.url}}">
+          <img class="blog-logo brandMedium" src="{{ site.logo | prepend: site.url }}">
+      </a>
     {% endif %}
     <h1 class="blog-title">{{ site.title }}</h1>
     <h2 class="blog-description">{{ site.description }}</h2>
