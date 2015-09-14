@@ -19,6 +19,10 @@
   border-bottom: 1px dashed lightgrey;
 }
 
+.brandMini {
+  height: 100%;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (max-width: 768px) {
