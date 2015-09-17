@@ -1,5 +1,5 @@
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 gems:
   - jemoji
@@ -7,7 +7,7 @@ gems:
 # Site settings
 title: "Tomas Alabes' Blog"
 description: My personal site's Blog
-  
+
 #email: a-mail@mail.mail
 #blog logo
 logo: "/assets/images/logos/twoLinesLogo.svg"
