@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ES6 Classes for Java Developers"
+title:  "Javascript ES6 Classes for Java Developers"
 description: "Concepts of Java classes in ES6 Javascript"
 date:   2015-09-16 12:30:16
 categories: web-development
@@ -387,3 +387,4 @@ Resources:
 
 1. [www.2ality.com](http://www.2ality.com/2015/02/es6-classes-final.html)
 2. [es6-features.org](http://es6-features.org/#ClassDefinition)
+3. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
