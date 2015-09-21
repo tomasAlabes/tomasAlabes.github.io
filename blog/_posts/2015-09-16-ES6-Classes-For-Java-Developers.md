@@ -14,16 +14,16 @@ So these are my findings:
 We will analyze: 
 
 1. [Inheritance](#inheritance)
-2. [Getters/Setters, fields access](#fieldGS)
-4. [Static Methods](#staticMethods)
-5. [Static Fields](#staticFields)
-6. [Abstract Classes](#abstractClasses)
-7. [Abstract Methods](#abstractMethods)
-8. [Private fields](#privateFields)
-9. [Functions Overloading](#functionsOverloading)
+2. [Accessors](#accessors)
+4. [Static Methods](#static-methods)
+5. [Static Fields](#static-fields)
+6. [Abstract Classes](#abstract-classes)
+7. [Abstract Methods](#abstract-methods)
+8. [Private Fields](#private-fields)
+9. [Functions Overloading](#functions-overloading)
 10. [Interfaces](#interfaces)
 
-[Inheritance](id:inheritance)
+Inheritance
 ----------------
 
 Inheritance is one of the building blocks of Java and OOP, and it's one of the things that ES6 already has,
@@ -96,8 +96,8 @@ class MyClass {
 {% endhighlight %}
 
 
-[Getters/Setters, fields access](id:fieldGS)
-------------------------------------
+Accessors
+----------
 
 We have the ability to define getters and setters for our fields. So we can access them as any other object property.
 
@@ -146,8 +146,8 @@ donatello.health = 80; // Right way of doing it
 
 {% endhighlight %}
 
-[Static Methods](id:staticMethods)
-------------------------------------
+Static Methods
+----------------
 
 Static methods are also something included in ES6, are easy and similar to Java. 
 
@@ -187,8 +187,8 @@ From the derived class you can override and call your parents static method.
 
 Why can't you in java? [Answer](http://stackoverflow.com/questions/2223386/why-doesnt-java-allow-overriding-of-static-methods).
 
-[Static Fields](id:staticFields)
----------------------
+Static Fields
+----------------
 
 They are not baked-in ES6 but there is a [discussion](https://github.com/jeffmo/es-class-properties)
 about it for ES7. Right now you can simulate the functionality like this: 
@@ -224,7 +224,7 @@ Foo.staticObj; // {prop: "hello"};
 
 But as we saw in the example it can be changed easily...
 
-[Abstract classes](id:abstractClasses)
+Abstract classes
 ---------------------
 
 This concept is not implemented in ES6 or ES7, and I couldn't find anything official about it, but I found a way to mimic them
@@ -254,7 +254,7 @@ const b = new Derived(); // new.target is Derived, so no error
 
 It doesn't seem a super hacky way of implementing it.
 
-[Abstract methods](id:abstractMethods)
+Abstract Methods
 ---------------------
 
 Similar thing for abstract methods.
@@ -283,7 +283,7 @@ const c = new Derived2(); // this.method is Derived2.prototype.method; no error
 {% endhighlight %}
 
 
-[Private fields](id:privateFields)
+Private Fields
 -------------------
 
 Private fields are not supported in any ES right now, but there are a couple of 
@@ -328,8 +328,8 @@ The above `private` WeakMap is shared among all Warrior instances, so potentiall
 health. It's a disadvantage of this implementation.  
 
 
-[Functions Overloading](id:functionsOverloading)
--------------------
+Functions Overloading
+----------------------
 This functionality have never existed in Javascript and there is no plan on supporting it. But this es mainly because
 Javascript, as a dynamically typed language, make this impossible:
  
@@ -360,7 +360,7 @@ Javascript has no type checking on arguments or required quantity of arguments, 
 implementation of `say()`. 
 You can adapt to what arguments were passed to it by checking the type, presence or quantity of arguments.
 
-[Interfaces](id:interfaces)
+Interfaces
 -------------------
 
 There is no concept of interface whatsoever in any version of javascript, you can find interfaces in
@@ -378,7 +378,9 @@ it's possible to have a lot of the functionality, some are more hacky than other
 if you have programmed in js for a while you are scared of nothing. 
 
 Am I missing something or is there a better way to do these things?
+
 Comments or improvements are appreciated!
+
 Thanks!
 
 
