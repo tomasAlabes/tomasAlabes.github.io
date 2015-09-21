@@ -21,7 +21,8 @@ We will analyze:
 6. [Abstract Classes](#abstractClasses)
 7. [Abstract Methods](#abstractMethods)
 8. [Private fields](#privateFields)
-9. [Interfaces](#interfaces)
+9. [Functions Overloading](#functionsOverloading)
+10. [Interfaces](#interfaces)
 
 [Inheritance](id:inheritance)
 ----------------
@@ -58,32 +59,27 @@ class Ninja extends Warrior {
 {% endhighlight %}
 
 Everything here is almost self-explanatory, it uses a a very similar syntax than Java. Instead of having the constructor 
-with the name of the class, you just put `constructor` and the parameters of it.
+with the name of the class, you just put `constructor` and the parameters of it.  
+<br />
 
-> If you don’t specify a constructor for a base class, the following definition is used:[^1]
-> 
-> {% highlight javascript %}
+### Default constructor and the "..." function parameters
+
+If you don’t specify a constructor for a base class, the following definition is used:
+ 
+{% highlight javascript %}
 constructor() {}
 {% endhighlight %}
-> 
-> For derived classes, the following default constructor is used:[^1]
-> 
-> {% highlight javascript %}
+
+For derived classes, the following default constructor is used:
+
+{% highlight javascript %}
 constructor(...args) {
     super(...args);
 }
 {% endhighlight %}
 
-Now, what's the scope of the variables I set inside the constructor? How can I access them?
-
-{% highlight javascript %}
-let donatello = new Ninja("Donatello"); //Ninja turtle!
-console.log(donatello._health); // 100
-w._health = 200; //I can access it as any other property
-console.log(donatello._health); // 200
-{% endhighlight %}
-
-The '_' feels bad right...? Let's move to something cleaner.
+So here we can see two things, how default constructors are, and the `...args` syntax that is also used in Java to pass
+as many arguments as you want.
 
 [Getters/Setters, fields access](id:fieldGS)
 ------------------------------------
@@ -276,6 +272,37 @@ class Warrior {
 
 {% endhighlight %}
 
+[Functions Overloading](id:functionsOverloading)
+-------------------
+This functionality have never existed in Javascript and there is no plan on supporting it. But this es mainly because
+Javascript, as a dynamically typed language, make this impossible:
+ 
+{% highlight javascript %}
+
+class Person {
+    
+    say(what) { //string
+        console.log(thing);
+    }
+    
+    say(things) { //array
+        things.forEach(function(thing){
+            console.log(thing);
+        });
+            
+    }
+    
+    say() {
+        console.log("blah")
+    }
+    
+}
+
+{% endhighlight %}
+
+Javascript has no type checking on arguments or required quantity of arguments, so you can just have one
+implementation of `say()`. 
+You can adapt to what arguments were passed to it by checking the type, presence or quantity of arguments.
 
 [Interfaces](id:interfaces)
 -------------------
@@ -298,6 +325,6 @@ Thanks!
 
 
 --------------------
-References:
+Resources:
 
-[^1]: [http://www.2ality.com/2015/02/es6-classes-final.html](http://www.2ality.com/2015/02/es6-classes-final.html)
+1. [http://www.2ality.com/2015/02/es6-classes-final.html](http://www.2ality.com/2015/02/es6-classes-final.html)
