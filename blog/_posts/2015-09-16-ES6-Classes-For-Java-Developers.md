@@ -7,7 +7,6 @@ categories: web-development
 tags: ES6, javascript, classes
 ---
 
-
 I'm part Java part Javascript developer, so one of the first things I wanted to know when I saw the new ES6 classes 
 is what they can do, how are they similar to Java classes. 
 So these are my findings:
@@ -59,12 +58,12 @@ class Ninja extends Warrior {
 {% endhighlight %}
 
 Everything here is almost self-explanatory, it uses a a very similar syntax than Java. Instead of having the constructor 
-with the name of the class, you just put `constructor` and the parameters of it.  
+with the name of the class, you just put `constructor` and the parameters for it.  
 <br />
 
 ### Default constructor and the "..." function parameters
 
-If you don’t specify a constructor for a base class, the following definition is used:
+If you don’t specify a constructor for a base class, the following constructor is used:
  
 {% highlight javascript %}
 constructor() {}
@@ -79,7 +78,23 @@ constructor(...args) {
 {% endhighlight %}
 
 So here we can see two things, how default constructors are, and the `...args` syntax that is also used in Java to pass
-as many arguments as you want.
+as many arguments as you want. The array of arguments already existed in javascript using the `arguments` object, 
+but now we can do something like:
+ 
+{% highlight javascript %}
+class MyClass {
+
+    receiveWhatever(aNumber, ...rest) {
+        console.log(aNumber);
+        
+        rest.forEach(function(thing){
+            console.log(thing);
+        });
+    }
+ 
+}
+{% endhighlight %}
+
 
 [Getters/Setters, fields access](id:fieldGS)
 ------------------------------------
@@ -102,7 +117,7 @@ class Warrior {
 
 let donatello = new Ninja("Donatello");
 console.log(donatello._health); // 100 (this will still work...) but:
-console.log(donatello.health); // 100, nicer
+console.log(donatello.health); // 100, nicer and you can do things in the getter
 
 donatello.health = 80; // Error!
 // TypeError: Cannot set property health of # which has only a getter at eval
@@ -112,7 +127,9 @@ donatello._health = 80; // You can, but shame on you...
 {% endhighlight %}
 
 When we define a getter (and no setter), the variable becomes read-only with the getter/setter name, but you can still change
-it when the variable name, "_health" in this case, but is not a good practice! Either use the accessors, or don't use them.
+it when the variable name, "_health" in this case, but is not a good practice! 
+
+Either use the accessors, or don't.
 
 {% highlight javascript %}
     
@@ -136,25 +153,39 @@ Static methods are also something included in ES6, are easy and similar to Java.
 
 {% highlight javascript %}
 
-    class Foo {
-        static classMethod() {
-            return 'hello';
-        }
+class Foo {
+    static classMethod() {
+        return 'hello';
     }
-    
-    class Bar extends Foo {
-        static classMethod() {
-            return super.classMethod() + ', too';
-        }
-    }
-    Bar.classMethod(); // 'hello, too'
+}
+
+Foo.classMethod(); // 'hello'
 
 {% endhighlight %}
 
-Two things here, fist how you define a method with the `static` keyword, very similar to java, and then
-how from the derived class you can override and call your parents static method. 
+Very similar to java.
+One thing you can do in Javascript but can't in Java is the following:
 
-<span style="color: red">Can you do that it Java?</span>.
+{% highlight javascript %}
+
+class Foo {
+    static classMethod() {
+        return 'hello';
+    }
+}
+
+class Bar extends Foo {
+    static classMethod() {
+        return super.classMethod() + ', too';
+    }
+}
+Bar.classMethod(); // 'hello, too'
+
+{% endhighlight %}
+
+From the derived class you can override and call your parents static method. 
+
+Why can't you in java? [Answer](http://stackoverflow.com/questions/2223386/why-doesnt-java-allow-overriding-of-static-methods).
 
 [Static Fields](id:staticFields)
 ---------------------
@@ -167,26 +198,36 @@ about it for ES7. Right now you can simulate the functionality like this:
 class Foo {
     constructor() {}
 }
-Foo.staticVar = 5;
 
-// Then
+//definition
+const staticNumber = 5;
+const staticObj = { prop: 5 };
+Foo.staticNumber = staticNumber;
+Foo.staticObj = staticObj;
+{% endhighlight %}
 
-let f = new Foo();
-f.staticVar; //undefined
-Foo.staticVar; // 5
+{% highlight javascript %}
+// Examples of use
 
-Foo.staticVar = 10; // :s
+new Foo().staticNumber; //undefined
+Foo.staticNumber; // 5
+Foo.staticObj; //{ prop: 5 }
+
+Foo.staticObj.prop = 2; // Error! const can't be changed! 
+
+Foo.staticVar = 10; // WARNING: overriding static field value
+Foo.staticObj = {prop: "hello"}; // WARNING: overriding static field value
+
 Foo.staticVar; // 10
+Foo.staticObj; // {prop: "hello"};
 {% endhighlight %}
 
 But as we saw in the example it can be changed easily...
 
-<span style="color: red">Other better approach?</span>.
-
 [Abstract classes](id:abstractClasses)
 ---------------------
 
-This concepts is not implemented in ES6 or ES7, and I could find anything official about I found a way to mimic them
+This concept is not implemented in ES6 or ES7, and I couldn't find anything official about it, but I found a way to mimic them
 in this [Stack Overflow answer](http://stackoverflow.com/questions/29480569/does-ecmascript-6-have-a-convention-for-abstract-classes).
 
 {% highlight javascript %}
@@ -211,9 +252,12 @@ const b = new Derived(); // new.target is Derived, so no error
 
 {% endhighlight %}
 
+It doesn't seem a super hacky way of implementing it.
 
 [Abstract methods](id:abstractMethods)
 ---------------------
+
+Similar thing for abstract methods.
 
 {% highlight javascript %}
 
@@ -272,6 +316,18 @@ class Warrior {
 
 {% endhighlight %}
 
+Although the `WeakMap` is a new structure for Javascript, for Java is not: [WeakHashMap](http://docs.oracle.com/javase/8/docs/api/java/util/WeakHashMap.html).
+
+> The WeakMap object is a collection of key/value pairs in which the keys are weakly referenced. The keys must be objects and the values can be arbitrary values.
+
+
+
+<span style="color:#DCE775; text-decoration: underline;">WARNING</span>
+
+The above `private` WeakMap is shared among all Warrior instances, so potentially you can access another warrior's
+health. It's a disadvantage of this implementation.  
+
+
 [Functions Overloading](id:functionsOverloading)
 -------------------
 This functionality have never existed in Javascript and there is no plan on supporting it. But this es mainly because
@@ -317,9 +373,11 @@ if you **really** need it native.
 
 Conclusion
 -------------------
-Despite not having all the OOP concepts that Java has, it's possible to have most of the functionalties, some are more hacky than
-others but hey, if you have programmed in js for a while you are scared of nothing.
+Despite not having all the OOP concepts and constructs that Java has (remember javascript was born and is as a prototype based language), 
+it's possible to have a lot of the functionality, some are more hacky than others but hey, 
+if you have programmed in js for a while you are scared of nothing. 
 
+Am I missing something or is there a better way to do these things?
 Comments or improvements are appreciated!
 Thanks!
 
@@ -327,4 +385,5 @@ Thanks!
 --------------------
 Resources:
 
-1. [http://www.2ality.com/2015/02/es6-classes-final.html](http://www.2ality.com/2015/02/es6-classes-final.html)
+1. [www.2ality.com](http://www.2ality.com/2015/02/es6-classes-final.html)
+2. [es6-features.org](http://es6-features.org/#ClassDefinition)
