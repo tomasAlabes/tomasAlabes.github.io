@@ -1,0 +1,10 @@
+http://tomasalabes.me/
+http://tomasalabes.me/blog/_site/index.html
+http://tomasalabes.me/about.html
+http://tomasalabes.me/blog/_site/web-development/2015/09/16/ES6-Classes-For-Java-Developers.html
+http://tomasalabes.me/blog/_site/web-development/2015/09/12/Requirejs-and-CSS.html
+http://tomasalabes.me/blog/_site/web-development/svg/2013/05/28/SVG-VML-views-in-your-Backbone-app-with-Raphael.html
+http://tomasalabes.me/blog/_site/web-development/svg/2013/05/13/Use-RaphaëlJS-with-AMD-(recent-official-feature).html
+http://tomasalabes.me/blog/_site/web-development/presentation/2013/03/13/Introduction-to-RaphaelJS.html
+http://tomasalabes.me/blog/_site/
+http://tomasalabes.me/blog/_site/feed.xml
