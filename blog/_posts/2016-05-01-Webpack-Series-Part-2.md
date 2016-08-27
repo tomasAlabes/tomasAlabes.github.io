@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Webpack Series (Part 2): Webpack (AMD) + Karma + Mocha"
-description: "Learning Webpack"
+description: "Testing with Webpack"
 date:   2016-05-01 12:30:16
 categories: web-development
 tags: javascript, webpack

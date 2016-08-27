@@ -1,7 +1,7 @@
 .idea/
-bower_components/
-node_modules/
-.sass-cache/
+bower_components
+node_modules
+.sass-cache
 
 .DS_Store
 _site

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Webpack Series (Part 3): Webpack + PostCSS + Stylelint + Stylefmt"
-description: "Learning Webpack"
+description: "Working with style"
 date:   2016-08-26 12:30:16
 categories: web-development
 tags: javascript, webpack, stylelint, stylefmt
@@ -121,7 +121,7 @@ npm install --save stylefmt-loader
     }
 ```
 
-#Conclusion
+# Conclusion
 With this tools, you have the power to scale your css development in your project, with a set of standards and rules that will be automatically enforced in your dev process, making your application easier to maintain and improving the overall quality of it.
 
 Hope it helps!

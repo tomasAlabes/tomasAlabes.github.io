@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Webpack Series (Part 1): Some Configs Explained"
-description: "Learning Webpack"
+description: "Getting to know Webpack"
 date:   2016-04-30 12:30:16
 categories: web-development
 tags: javascript, webpack
