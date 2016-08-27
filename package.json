@@ -1,33 +1,25 @@
 {
   "name": "TomasAlabes.me",
   "description": "Tomas Alabes personal website",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "http://tomasAlabes.me/",
-
   "author": {
     "name": "Tomas Alabes",
     "email": "tomas.alabes@gmail.com",
     "url": "http://tomasAlabes.me/"
   },
-
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://mit-license.org"
-    }
-  ],
-
+  "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-sass": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-contrib-clean": "*",
-    "grunt-contrib-requirejs": "*",
-    "grunt-contrib-connect": "*",
-    "grunt-contrib-copy": "*",
-    "grunt-uncss": "*"
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-uncss": "^0.6.1"
   }
 }
