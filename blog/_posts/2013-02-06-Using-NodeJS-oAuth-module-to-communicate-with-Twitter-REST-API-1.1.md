@@ -11,30 +11,30 @@ Hi, lets see how to use the 'oauth' module in nodeJS, for getting information fr
 
 You should start by installing the module:
 
-{% highlight bash %}
+```bash
 $ npm install oauth
-{% endhighlight %}
+```
 
 And add it to the package.json of your app:
 
-{% highlight javascript %}
+```javascript
 "dependencies": {
     "express": "3.1.0",
     "ejs": "*",
     "oauth": "*"
   }
-{% endhighlight %}
+```
 
 Then, in the file where you will add the twitter retrieval logic, import the module:
 
-{% highlight javascript %}
+```javascript
 var util = require('util');
 var OAuth = require('oauth').OAuth;
-{% endhighlight %}
+```
 
 Once you created your app and got your data in https://dev.twitter.com/:
 
-{% highlight javascript %}
+```javascript
 var oa = new OAuth("https://api.twitter.com/oauth/request_token",
     "https://api.twitter.com/oauth/access_token",
     "YOUR_CONSUMER_KEY",
@@ -45,11 +45,11 @@ var oa = new OAuth("https://api.twitter.com/oauth/request_token",
 
 var access_token = 'YOUR_ACCESS_TOKEN';
 var access_token_secret = 'YOUR_ACCESS_TOKEN_SECRET'
-{% endhighlight %}
+```
 
 Then I will give you a couple of examples of how to get stuff from Twitter:
 
-{% highlight javascript %}
+```javascript
 exports.getLatestTweets = function (tweeter, count, callback) {
     oa.get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=" + tweeter + "&count=" + count, access_token, access_token_secret, function (error, data) {
         var result;
@@ -75,13 +75,13 @@ exports.getLatestProfilePicture = function (tweeter, callback) {
         callback(result);
     });
 };
-{% endhighlight %}
+```
 
 To use it, import it from other js
 
-{% highlight javascript %}
+```javascript
 var twitterUtil = require('path/to/twitterUtil');
-{% endhighlight %}
+```
 
 Now go get Twitter data and use it for good!!
 

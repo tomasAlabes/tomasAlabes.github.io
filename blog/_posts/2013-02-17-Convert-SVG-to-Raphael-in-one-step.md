@@ -22,22 +22,22 @@ Now is time to convert your svg file, I took this svg as example:
 (pretty cool huh? you can find the free svg here)
 
 Execute
-{% highlight bash %}
+```bash
 node rappar.js path/to/eagle.svg
-{% endhighlight %}
+```
 
 This will output the svg code, but perhaps we could do this in a cleaner way:
 
-{% highlight bash %}
+```bash
 node rappar.js path/to/eagle.svg > myCode.txt
-{% endhighlight %}
+```
 
 Now you have it in a separate file. Want to add it to your web? Like this:
 
-{% highlight javascript %}
+```javascript
 var paper = Raphael(0, 0, 1600, 1600); //I'm using an arbitrary width and height
 paper.add(your_code)
-{% endhighlight %}
+```
 
 And you are done! Easy right? Now you can add any svg file to your browser converting it with this tool. Check the raphael documentation for more info on the library.
 

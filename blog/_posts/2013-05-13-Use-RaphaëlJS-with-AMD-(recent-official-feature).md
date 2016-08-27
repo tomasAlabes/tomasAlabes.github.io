@@ -16,7 +16,7 @@ The example
 
 First the html, we will use require.js so you need to add it in you project structure. The same with your main javascript file, where require will start to download the js.
 
-{% highlight html %}
+```html
 <html>
 <head>
  <title>Raphael Dev testing html</title>
@@ -27,37 +27,37 @@ First the html, we will use require.js so you need to add it in you project stru
  <div id="container"></div>
 </body>
 </html>
-{% endhighlight %}
+```
 
 We have in the body the div that will work as the container of Raphael, notice that there are other ways of creating the svg/vml root element.
 
 Then the main.js file:
 
-{% highlight javascript %}
+```javascript
 require([ "path/to/raphael" ], function (Raphael) {
     console.log(Raphael);
 });
-{% endhighlight %}
+```
 
 Here you set the path to Raphael and you are ready to go!
 
 Or set this configuration in your configuration:
 
-{% highlight javascript %}
+```javascript
 require.config({
   paths: {
     raphael: "libs/raphael"
   }
 });
-{% endhighlight %}
+```
 
 And you can require the module like this:
 
-{% highlight javascript %}
+```javascript
 require([ "raphael" ], function (Raphael) {
     console.log(Raphael);
 });
-{% endhighlight %}
+```
 
 This is the simplest of the examples, in my repo I have some variants:
 Global use (window.Raphael)

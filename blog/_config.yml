@@ -1,14 +1,19 @@
 # Build settings
-markdown: kramdown
-highlighter: pygments
+markdown:    kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+highlighter: rouge
 gems:
-  - jemoji
+  - jekyll-admin
+  - jekyll-paginate
 
 # Site settings
 title: "Tomas Alabes' Blog"
 description: My personal site's Blog
 
-#email: a-mail@mail.mail
+email: tomas.alabes@mail.mail
 #blog logo
 logo: "/assets/images/logos/twoLinesLogo.svg"
 # blog cover
@@ -19,7 +24,7 @@ author: 'Tomas Alabes'
 
 author:
   name: "Tomas Alabes"
-  bio: "I'm a Software Engineer who is making a living understanding the web. :)"
+  bio: "Software Engineer from Argentina. Lover of software and fútbol."
 
 author_image: "/assets/images/author.png"
 

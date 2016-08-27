@@ -26,15 +26,15 @@ Boilerplate
 First I downloaded the last html5 boilerplate, this gives all you need to get started.
 In the template you will see this comment:
 
-{% highlight javascript %}
+```javascript
 <!-- Add your site or application content here -->
-{% endhighlight %}
+```
 
 There is where you start adding things. The first html element you need now is the following:
 
-{% highlight javascript %}
+```javascript
 <video autoplay=""></video>
-{% endhighlight %}
+```
 
 This tag will be where the camera will stream its content.
 Feature Detection
@@ -43,7 +43,7 @@ Then, following Eric's article, I started the feature detection and asking permi
 "The getUserMedia() API is still very new. In Chrome < 21, you need to enable the feature by visiting about:flags. If you're using Chrome 21, you can skip this section."
 You can see other browsers compatibility with this feature here.
 
-{% highlight javascript %}
+```javascript
 window.URL = window.URL || window.webkitURL;
 navigator.getUserMedia  = navigator.getUserMedia || navigator.webkitGetUserMedia ||
                           navigator.mozGetUserMedia || navigator.msGetUserMedia;
@@ -60,7 +60,7 @@ if (navigator.getUserMedia) {
   //You can add a fallback here if you want, I didn't.
   //video.src = 'somevideo.webm';
 }
-{% endhighlight %}
+```
 
 Notice that you can use 'audio: true' also in the first parameter of the getUserMedia() function, but it isn't necessary as we only want to take photos or analyze images.
 
@@ -70,22 +70,22 @@ First, taking frames snapshots
 
 To do this you must add a canvas element to the html:
 
-{% highlight javascript %}
+```javascript
 <canvas id="ghostCanvas" style="display:none" width="440" height="320"></canvas>
-{% endhighlight %}
+```
 
 This canvas will be one where our images will be taken secretly, the width/height can be anything you want.
 
 How do we take a screenshot of the camera? Here:
 
-{% highlight javascript %}
+```javascript
 function snapshot(canvas) {
     if (localMediaStream) {
         var canvasContext = canvas.getContext('2d');
         canvasContext.drawImage(video, 0, 0, 440, 320);
     }
 }
-{% endhighlight %}
+```
 
 You can see the drawImage function here, but the parameters can be easily understood with this image:
 
@@ -96,7 +96,7 @@ To analyze the images I used a very simple algorithm, comparing 9 points of the 
 
 This is how:
 
-{% highlight javascript %}
+```javascript
     darkyImage: function (canvas) {
         var canvasContext = canvas.getContext('2d'),
             i, j,
@@ -116,23 +116,23 @@ This is how:
         }
         return true;
     }
-{% endhighlight %}
+```
 
 What about that 'darkyPixel' function? Simple (really, VERY simple), I chose a color limit (20) and a redOffset, this offset is because as your palm has a reddish color, the red part of the pixel generally was 20/25 points higher, so this adjustment did the analysis a bit better.
 
-{% highlight javascript %}
+```javascript
 darkyPixel: function (rgba) {
         var offColor = 20,
             redOffset = 25;
         return ((rgba[0] < offColor + redOffset && rgba[1] < offColor && rgba[2] < offColor));
-{% endhighlight %}
+```
 
 Of course any algorithm you would like to suggest is welcome!
 Reading the camera
 
 Now, when the user accepts us to use their camera, we need to start reading the camera taking snapshots every N seconds/ms, I choose 700ms.
 
-{% highlight javascript %}
+```javascript
 function startReading(){
         var ghostCanvas = $('#ghostCanvas')[0];
         setInterval(function(){
@@ -142,33 +142,33 @@ function startReading(){
             }
         }, 700);
     }
-{% endhighlight %}
+```
 
 This should be inside the navigator.getUserMedia(), like this:
 
-{% highlight javascript %}
+```javascript
  navigator.getUserMedia({video: true}, function(stream) {
     video.src = window.URL.createObjectURL(stream);
     localMediaStream = stream;
     startReading(); //here!!
   }, onFailSoHard);
-{% endhighlight %}
+```
 
 How do I turn off the service when you cover the camera?
 You covered the webcam! Shut it down!
-{% highlight javascript %}
+```javascript
     function stopWebCam(){
         video.pause();
         localMediaStream.stop();
         $('video').fadeOut(500);
         $("#ghostCanvas").hide();
     }
-{% endhighlight %}
+```
 
 Well, that's it!
 Here it is all together:
 
-{% highlight javascript %}
+```javascript
 $(document).ready(function(){
     window.URL = window.URL || window.webkitURL;
 
@@ -244,7 +244,7 @@ $(document).ready(function(){
         alert('getUserMedia() is not supported in your browser');
     }
 });
-{% endhighlight %}
+```
 
 I know that my site has a couple of more things like modules and dimming the background while covering the webcam but I'll try to make another post with them.
 

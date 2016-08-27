@@ -20,19 +20,19 @@ How do I use it?
 
 1. Add backbone.raphael.js after backbone.js in your html
 
-{% highlight html %}
+```html
 <script type="text/javascript" src="backbone.js"></script>
 
 <!-- The extension  -->
 <script type="text/javascript" src="backbone.raphael.js"></script>
-{% endhighlight %}
+```
 
 This will enable you to use the new Backbone.RaphaelView
 2. How to use it
 
 First:
 
-{% highlight javascript %}
+```javascript
 //Raphael root element
 var paper = Raphael(0, 0, 300, 640);
 
@@ -78,11 +78,11 @@ var CircleView = Backbone.RaphaelView.extend({
     }
 
 });
-{% endhighlight %}
+```
 
 Now is time for creating some real objects:
 
-{% highlight javascript %}
+```javascript
 var model = new CircleModel({
     x: 100,
     y: 150,
@@ -93,13 +93,13 @@ var model = new CircleModel({
 var view = new CircleView({
     model: model
 });
-{% endhighlight %}
+```
 
 Then in your app you can trigger the custom events you binded:
 
-{% highlight javascript %}
+```javascript
 view.trigger("foo");
-{% endhighlight %}
+```
 
 In my [github](https://github.com/tomasAlabes/backbone.raphael) repo it is the source code and a more complex sample app for you to see. This extension is still in development but is usable today.
 

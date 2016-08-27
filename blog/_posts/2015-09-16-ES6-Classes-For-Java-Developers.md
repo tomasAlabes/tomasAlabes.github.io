@@ -29,7 +29,7 @@ Inheritance
 Inheritance is one of the building blocks of Java and OOP, and it's one of the things that ES6 already has,
 lets see how it looks in Javascript.
 
-{% highlight javascript %}
+```javascript
     
 class Warrior {
 
@@ -55,7 +55,7 @@ class Ninja extends Warrior {
 
 }
 
-{% endhighlight %}
+```
 
 Everything here is almost self-explanatory, it uses a a very similar syntax than Java. Instead of having the constructor 
 with the name of the class, you just put `constructor` and the parameters for it.  
@@ -65,23 +65,23 @@ with the name of the class, you just put `constructor` and the parameters for it
 
 If you don’t specify a constructor for a base class, the following constructor is used:
  
-{% highlight javascript %}
+```javascript
 constructor() {}
-{% endhighlight %}
+```
 
 For derived classes, the following default constructor is used:
 
-{% highlight javascript %}
+```javascript
 constructor(...args) {
     super(...args);
 }
-{% endhighlight %}
+```
 
 So here we can see two things, how default constructors are, and the `...args` syntax that is also used in Java to pass
 as many arguments as you want. The array of arguments already existed in javascript using the `arguments` object, 
 but now we can do something like:
  
-{% highlight javascript %}
+```javascript
 class MyClass {
 
     receiveWhatever(aNumber, ...rest) {
@@ -93,7 +93,7 @@ class MyClass {
     }
  
 }
-{% endhighlight %}
+```
 
 
 Accessors
@@ -101,7 +101,7 @@ Accessors
 
 We have the ability to define getters and setters for our fields. So we can access them as any other object property.
 
-{% highlight javascript %}
+```javascript
     
 class Warrior {
 
@@ -124,14 +124,14 @@ donatello.health = 80; // Error!
 
 donatello._health = 80; // You can, but shame on you...
 
-{% endhighlight %}
+```
 
 When we define a getter (and no setter), the variable becomes read-only with the getter/setter name, but you can still change
 it when the variable name, "_health" in this case, but is not a good practice! 
 
 Either use the accessors, or don't.
 
-{% highlight javascript %}
+```javascript
     
 // [...]
 
@@ -144,14 +144,14 @@ Either use the accessors, or don't.
 let donatello = new Ninja("Donatello");
 donatello.health = 80; // Right way of doing it
 
-{% endhighlight %}
+```
 
 Static Methods
 ----------------
 
 Static methods are also something included in ES6, are easy and similar to Java. 
 
-{% highlight javascript %}
+```javascript
 
 class Foo {
     static classMethod() {
@@ -161,12 +161,12 @@ class Foo {
 
 Foo.classMethod(); // 'hello'
 
-{% endhighlight %}
+```
 
 Very similar to java.
 One thing you can do in Javascript but can't in Java is the following:
 
-{% highlight javascript %}
+```javascript
 
 class Foo {
     static classMethod() {
@@ -181,7 +181,7 @@ class Bar extends Foo {
 }
 Bar.classMethod(); // 'hello, too'
 
-{% endhighlight %}
+```
 
 From the derived class you can override and call your parents static method. 
 
@@ -193,7 +193,7 @@ Static Fields
 They are not baked-in ES6 but there is a [discussion](https://github.com/jeffmo/es-class-properties)
 about it for ES7. Right now you can simulate the functionality like this: 
 
-{% highlight javascript %}
+```javascript
 
 class Foo {
     constructor() {}
@@ -204,9 +204,9 @@ const staticNumber = 5;
 const staticObj = { prop: 5 };
 Foo.staticNumber = staticNumber;
 Foo.staticObj = staticObj;
-{% endhighlight %}
+```
 
-{% highlight javascript %}
+```javascript
 // Examples of use
 
 new Foo().staticNumber; //undefined
@@ -220,7 +220,7 @@ Foo.staticObj = {prop: "hello"}; // WARNING: overriding static field value
 
 Foo.staticVar; // 10
 Foo.staticObj; // {prop: "hello"};
-{% endhighlight %}
+```
 
 But as we saw in the example it can be changed easily...
 
@@ -230,7 +230,7 @@ Abstract classes
 This concept is not implemented in ES6 or ES7, and I couldn't find anything official about it, but I found a way to mimic them
 in this [Stack Overflow answer](http://stackoverflow.com/questions/29480569/does-ecmascript-6-have-a-convention-for-abstract-classes).
 
-{% highlight javascript %}
+```javascript
 
 class Abstract {
   constructor() {
@@ -250,7 +250,7 @@ class Derived extends Abstract {
 const a = new Abstract(); // new.target is Abstract, so it throws Error
 const b = new Derived(); // new.target is Derived, so no error
 
-{% endhighlight %}
+```
 
 It doesn't seem a super hacky way of implementing it.
 
@@ -259,7 +259,7 @@ Abstract Methods
 
 Similar thing for abstract methods.
 
-{% highlight javascript %}
+```javascript
 
 class Abstract {
   constructor() {
@@ -280,7 +280,7 @@ const a = new Abstract(); // this.method is undefined; error
 const b = new Derived1(); // this.method is undefined; error
 const c = new Derived2(); // this.method is Derived2.prototype.method; no error
 
-{% endhighlight %}
+```
 
 
 Private Fields
@@ -290,7 +290,7 @@ Private fields are not supported in any ES right now, but there are a couple of
 new structures in ES6 that let you emulate the private scope.
 I've read several good articles about it, I recommend [Private Properties in Javascript](https://curiosity-driven.org/private-properties-in-javascript).
 
-{% highlight javascript %}
+```javascript
 
 const private = new WeakMap();
 
@@ -314,7 +314,7 @@ class Warrior {
     }
 }
 
-{% endhighlight %}
+```
 
 Although the `WeakMap` is a new structure for Javascript, for Java is not: [WeakHashMap](http://docs.oracle.com/javase/8/docs/api/java/util/WeakHashMap.html).
 
@@ -333,7 +333,7 @@ Functions Overloading
 This functionality have never existed in Javascript and there is no plan on supporting it. But this es mainly because
 Javascript, as a dynamically typed language, make this impossible:
  
-{% highlight javascript %}
+```javascript
 
 class Person {
     
@@ -354,7 +354,7 @@ class Person {
     
 }
 
-{% endhighlight %}
+```
 
 Javascript has no type checking on arguments or required quantity of arguments, so you can just have one
 implementation of `say()`. 

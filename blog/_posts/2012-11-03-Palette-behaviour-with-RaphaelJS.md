@@ -18,7 +18,7 @@ For this we will use the drag() function that Raphael gives us, using some funct
 
 You'll have to add to every palette element this startFunction:
 
-{% highlight javascript %}
+```javascript
 //DragFunctions is the object that has all the 3 d&d methods, clearer in the complete file
 paletteStart:function () {
     // keep the relative coords at the start of the drag
@@ -34,11 +34,11 @@ paletteStart:function () {
     //nice animation
     this.animate({"opacity":0.5}, 500);
 }
-{% endhighlight %}
+```
 
 Now we need the function while the element is being dragged:
 
-{% highlight javascript %}
+```javascript
 move: function (dx, dy) {
     // calculate translation coords
     var new_x = dx - this.ox;
@@ -51,11 +51,11 @@ move: function (dx, dy) {
     this.ox = dx;
     this.oy = dy;
 }
-{% endhighlight %}
+```
 
 And finally, the function executed at finish dropping:
 
-{% highlight javascript %}
+```javascript
 paletteUp: function(){
     if(!DragFunctions.isInsideCanvas(this)){
         this.remove();
@@ -69,12 +69,12 @@ paletteUp: function(){
         this.animate({"opacity":1}, 500);
     }
 }
-{% endhighlight %}
+```
 
 2 things to comment here, when the element is dropped, you will have to remove the palette behaviour and give it another one (a plain d&d functionality), if not, it will continue cloning elements all around.
 Here I give you some nice behaviour to give them:
 
-{% highlight javascript %}
+```javascript
 start:function () {
     // keep the relative coords at the start of the drag
     this.ox = 0;
@@ -94,27 +94,27 @@ start:function () {
     addDragAndDropCapabilityToSet: function(compSet) {
         compSet.drag(this.move, this.start, this.up, compSet, compSet, compSet);
     }
-{% endhighlight %}
+```
 
 And as you may also see, we have a validator that sees if the element is inside the canvas, it is a very useful function, here:
 
-{% highlight javascript %}
+```javascript
 isInsideCanvas: function(obj){
             var canvasBBox = //get your 'canvas'
             var objectBBox = obj.getBBox();
             var objectPartiallyOutside = !Raphael.isPointInsideBBox(canvasBBox, objectBBox.x, objectBBox.y) || !Raphael.isPointInsideBBox(canvasBBox, objectBBox.x, objectBBox.y2) || !Raphael.isPointInsideBBox(canvasBBox, objectBBox.x2, objectBBox.y) || !Raphael.isPointInsideBBox(canvasBBox, objectBBox.x2, objectBBox.y2);
             return !(objectPartiallyOutside);
         }
-{% endhighlight %}
+```
 
 Finally, the place to call to give the element all this behaviour:
 
-{% highlight javascript %}
+```javascript
 //this works for elements and sets
 addDragAndDropCapabilityToPaletteOption:function (compSet) {
     compSet.drag(this.move, this.paletteStart, this.paletteUp, compSet, compSet, compSet);
 }
-{% endhighlight %}
+```
 
 A demo of this is in a website I created to play with raphael, called comoformamos project
 The hole code is in a github gist or hosted on github so if you want to get a little deeper in the code feel free to do it.

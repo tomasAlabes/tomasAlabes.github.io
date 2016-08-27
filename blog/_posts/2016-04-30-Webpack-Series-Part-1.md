@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Webpack Series (Part 1): Some Configs Explained"
-description: "Experiences with Webpack"
+description: "Learning Webpack"
 date:   2016-04-30 12:30:16
 categories: web-development
 tags: javascript, webpack
@@ -18,7 +18,7 @@ I'll start with Webpack's [configuration](https://webpack.github.io/docs/configu
 ##module.noParse
 This property can be either a RegEx or an array of RegExs. All matching files will not be parsed by webpack.
 
-{% highlight javascript %}
+```javascript
 module.exports = {
 	//...	
 	module: {
@@ -26,7 +26,7 @@ module.exports = {
 	}
 	//...
 }
-{% endhighlight %}
+```
 
 This means that webpack, when requiring them, will bundle them `as is`, without doing anything to them. This means that:
 
@@ -46,11 +46,11 @@ For the distribution type you have several options:
 
 When your library is loaded, the **return value of your entry point** will be assigned to a variable:
 
-{% highlight javascript %}
+```javascript
 var magicLibrary = _entry_return_;
 // your users will use your library like:
 magicLibrary.doTheTrick();
-{% endhighlight %}
+```
 _(Not specifying a `output.library` will cancel this `var` configuration)_
 
 
@@ -58,12 +58,12 @@ _(Not specifying a `output.library` will cancel this `var` configuration)_
 
 When your library is loaded, the **return value of your entry point** will be assigned to `this`, the meaning of `this` is up to you:
 
-{% highlight javascript %}
+```javascript
 this["magicLibrary"] = _entry_return_;
 // your users will use your library like:
 this.magicLibrary.doTheTrick();
 magicLibrary.doTheTrick(); //if this is window
-{% endhighlight %}
+```
 `this` will depend mostly on how you are injecting the bundle.
 
 
@@ -71,24 +71,24 @@ magicLibrary.doTheTrick(); //if this is window
 
 When your library is loaded, the **return value of your entry point** will be part of the `exports` object. As the name implies, this is used in commonjs environments.
 
-{% highlight javascript %}
+```javascript
 exports["magicLibrary"] = _entry_return_;
 //your users will use your library like:
 require("magicLibrary").doTheTrick();
 
-{% endhighlight %}
+```
 
 
 #### commonjs2
 
 When your library is loaded, the **return value of your entry point** will be part of the `exports` object. As the name implies, this is used in commonjs environments.
 
-{% highlight javascript %}
+```javascript
 module.exports = _entry_return_;
 //your users will use your library like:
 require("magicLibrary").doTheTrick();
 
-{% endhighlight %}
+```
 _Wondering the difference between commonjs and commonjs2? Check [this](https://github.com/webpack/webpack/issues/1114) out. (They are pretty much the same)_
 
 
@@ -99,27 +99,27 @@ In this case webpack will surround you library with an AMD.
 But there is a **very important pre-requisite, your entry chunk must be defined with the `define` property**, if not, webpack wil create the AMD module, but without dependencies. I learned this the hard way, it's logical but not obvious I think. Anyway... the output will be something like this:
 
 
-{% highlight javascript %}
+```javascript
 define([], function() {
 	//what this module returns is what your entry chunk returns
 });
-{% endhighlight %}
+```
 
 But if you download this script, first you may get a `error: define is not defined`, it's ok! if you are distributing your library as with amd, then your users need to use require to load it.
 But, `require([_what_])`? 
 
 `output.library`!
 
-{% highlight javascript %}
+```javascript
 output: {
 	name: "magicLibrary",
 	libraryTarget: "amd"
 }
-{% endhighlight %}
+```
 
 And the module will be:
 
-{% highlight javascript %}
+```javascript
 define("magicLibrary", [], function() {
 	//what this module returns is what your entry chunk returns
 });
@@ -128,7 +128,7 @@ define("magicLibrary", [], function() {
 require(["magicLibrary"], function(magic){
 	magic.doTheTrick();
 });
-{% endhighlight %}
+```
 
 
 #### umd _(Universal Module Definition)_
@@ -137,16 +137,16 @@ This is a way for your library to work with all module definitions (and where ar
 
 Here to name your module you need the another property:
 
-{% highlight javascript %}
+```javascript
 output: {
 	name: "magicLibrary",
 	libraryTarget: "umd",
 	umdNamedDefine: true
 }
-{% endhighlight %}
+```
 And finally the output is:
 
-{% highlight javascript %}
+```javascript
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -159,7 +159,7 @@ And finally the output is:
 })(this, function() {
 	//what this module returns is what your entry chunk returns
 });
-{% endhighlight %}
+```
 Module proof library.
 
 ##externals
@@ -168,7 +168,7 @@ These dependencies won't be resolved by webpack, but should become dependencies 
 
 I'll paste the official documentation that I think is complete and add comments.
 
-{% highlight javascript %}
+```javascript
 externals: [
     {
         a: false, // a is not external
@@ -188,7 +188,7 @@ externals: [
     },
     "./e" // "./e" is external (require("./e"))
 ]
-{% endhighlight %}
+```
 
 <table>
 <thead>
@@ -246,7 +246,7 @@ All the ways to set an external dep are easy to understand with the official doc
 
 The only thing I'd recommend is to not mix your `libraryTarget` and the type of the `externals`. Like:
 
-{% highlight javascript %}
+```javascript
 output:{
 	libraryTarget: "amd"
 },
@@ -255,7 +255,7 @@ externals = [
 		"./extLibrary": "var extLibrary"
 	}
 }
-{% endhighlight %}
+```
 
 This would be **invalid**, as `extLibrary` wouldn't exist as a variable in the final bundle, as the bundle is defined as amd.
 

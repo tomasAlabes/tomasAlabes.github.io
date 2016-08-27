@@ -25,16 +25,16 @@ How I got to that solution
 
 I first used the [require-css](https://github.com/guybedford/require-css) plugin:
 
-	{% highlight javascript %}
+	```javascript
 	define(['css!style', 'myJavascript'], function(style, myJavascript) {
 	    // in this case the plugin adds a <link> for the css, 
 	    // and calls this code on the onload of it (and the js).
 	});
-	{% endhighlight %}
+	```
 
 This would do the job, but when I wanted to bundle all the css and js files into 1 big file with this code:
 
-	{% highlight javascript %}
+	```javascript
 	define(['someJs'], function(someJs) {
 		if(someCondition){
 			require(['css!style', 'myJavascript'], function(style, myJavascript) {
@@ -43,7 +43,7 @@ This would do the job, but when I wanted to bundle all the css and js files into
 			});
 		}
 	});
-	{% endhighlight %}
+	```
 
 In this case, when I bundled everything, the css weren't bundled as well, so I needed to wait for the css to arrive to execute the dependant code. It makes sense but I want the css to be bundled too so the execution of that code is instant.
 
@@ -52,7 +52,7 @@ In this case, when I bundled everything, the css weren't bundled as well, so I n
 
 So the way i did that was using the same [requirejs-text plugin](https://github.com/requirejs/text) that I used for the html templates, but for the css.
 
-	{% highlight javascript %}
+	```javascript
 	define(['someJs'], function(someJs) {
 		if(someCondition){
 			require(['text!style', 'myJavascript'], function(style, myJavascript) {
@@ -62,7 +62,7 @@ So the way i did that was using the same [requirejs-text plugin](https://github.
 			});
 		}
 	});
-	{% endhighlight %}
+	```
 
 The only disadvantage that I see it that I will bundle all the css with the rest of the app when perhaps I won't use them all. But I don't mind adding 0.5 kb to the file to improve the UX of the app.
 

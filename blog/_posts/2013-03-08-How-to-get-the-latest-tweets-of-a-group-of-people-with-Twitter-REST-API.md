@@ -30,7 +30,7 @@ I'm using nodeJS in my server (remember we now have to authenticate to use even 
 
 An example of use would be the following:
 
-{% highlight javascript %}
+```javascript
 var config = {listId: "86236722", ownerId: "tomasAlabes", count: 10, slug: "poli-tweets-com-ar"}
 exports.getLatestTweetsFromList = function(config, callback){
     oauth.get("http://api.twitter.com/1.1/lists/statuses.json?"+
@@ -48,7 +48,7 @@ exports.getLatestTweetsFromList = function(config, callback){
         callback(result);
     });
 };
-{% endhighlight %}
+```
 
 Don't know how to get your list id? Check this.
 

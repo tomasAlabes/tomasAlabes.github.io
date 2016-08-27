@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Webpack Series (Part 2): Webpack (AMD) + Karma + Mocha"
-description: "Experiences with Webpack"
+description: "Learning Webpack"
 date:   2016-05-01 12:30:16
 categories: web-development
 tags: javascript, webpack
@@ -22,15 +22,15 @@ You have to use:
 
 First, the obvious:
 
-{% highlight bash %}
+```bash
 npm i -D karma-mocha karma-requirejs
-{% endhighlight %}
+```
 
 You might need to install other peer dependencies like `requirejs` and `mocha`.
 
 In your `karma.conf.js`:
 
-{% highlight javascript %}
+```javascript
 module.exports = function(config) {
     config.set({
     
@@ -56,11 +56,11 @@ module.exports = function(config) {
 		]
 	});
 };
-{% endhighlight %}
+```
 
 Karma will load (you can see all this if you run the tests with a browser, in the `debug.html`)
 
-{% highlight html %}
+```html
 <!-- ... -->
 <!-- Dynamically replaced with <script> tags -->
 <script type="text/javascript" src="/base/node_modules/requirejs/require.js"></script>
@@ -74,7 +74,7 @@ Karma will load (you can see all this if you run the tests with a browser, in th
   window.__karma__.loaded();
 </script>
 <!-- ... -->
-{% endhighlight %}
+```
 
 1. The karma runner code
 2. `requirejs` and `requirejs-adapter`.
@@ -91,18 +91,18 @@ Hence:
 
 __index.js__
 
-{% highlight javascript %}
+```javascript
 // require all modules ending in "_test" from the
 // current directory and all subdirectories
 var testsContext = require.context(".", true, /_test$/);
 testsContext.keys().forEach(testsContext);
-{% endhighlight %}
+```
 
 So the runner needs to load your amd library and tell karma to start running the tests!
 
 __runner.js__
 
-{% highlight javascript %}
+```javascript
 require(["myLibrary"], function(myLibrary){
 	// probably you don't want to do anything with your library here
 	// I didn't...
@@ -113,7 +113,7 @@ require(["myLibrary"], function(myLibrary){
 	window.__karma__.start();
 	
 });
-{% endhighlight %}
+```
 
 This way, your app + tests are loaded and required, and your tests can be ran by karma.
 

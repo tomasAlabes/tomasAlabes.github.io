@@ -3,3 +3,5 @@ source 'https://rubygems.org'
 # 'github-pages' includes 'jekyll' gem 
 gem 'github-pages'
 gem 'bourbon'
+gem 'jekyll-admin', group: :jekyll_plugins
+gem 'jekyll-paginate', group: :jekyll_plugins
