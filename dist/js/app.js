@@ -1,6 +1,8 @@
-/*! TomasAlabes.me - v0.0.0 - 2016-08-26
-* http://tomasAlabes.me/
-* Copyright (c) 2016 Tomas Alabes; Licensed MIT */
+/** vim: et:ts=4:sw=4:sts=4
+ * @license RequireJS 2.1.22 Copyright (c) 2010-2015, The Dojo Foundation All Rights Reserved.
+ * Available via the MIT or new BSD license.
+ * see: http://github.com/jrburke/requirejs for details
+ */
 //Not using strict: uneven strict support in browsers, #392, and causes
 //problems with requirejs.exec()/transpiler plugins that may not be strict.
 /*jslint regexp: true, nomen: true, sloppy: true */
@@ -2125,5 +2127,3 @@ var requirejs, require, define;
     //Set up with config info.
     req(cfg);
 }(this));
-
-require([],function(){}),define("main",function(){});

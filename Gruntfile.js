@@ -5,11 +5,6 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
-    banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
-      '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-      '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
-      '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
-      ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
     // Task configuration.
     clean: {
       files: ['dist']
@@ -20,18 +15,12 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {
-          "dist/css/index.css": "scss/index.scss",
-          "dist/css/projects.css": "scss/projects.scss",
-          "dist/css/about.css": "scss/about.scss"
+          "dist/css/index.css": "scss/index.scss"
         }
 
       }
     },
     concat: {
-      options: {
-        banner: '<%= banner %>',
-        stripBanners: true
-      },
       dist: {
         // we concat requirejs with our js code (created in requirejs task)
         src: ['bower_components/requirejs/require.js', '<%= concat.dist.dest %>'],
@@ -39,21 +28,12 @@ module.exports = function(grunt) {
       }
     },
     uglify: {
-      options: {
-        banner: '<%= banner %>'
-      },
       dist: {
         src: '<%= concat.dist.dest %>',
         dest: 'dist/js/app.min.js'
       }
     },
     jshint: {
-      gruntfile: {
-        options: {
-          jshintrc: '.jshintrc'
-        },
-        src: 'Gruntfile.js'
-      },
       app: {
         options: {
           jshintrc: '.jshintrc'
@@ -85,15 +65,6 @@ module.exports = function(grunt) {
         tasks: ['jshint:app']
       }
     },
-    requirejs: {
-      compile: {
-        options: {
-          name: "main",
-          baseUrl: "js/",
-          out: "<%= concat.dist.dest %>"
-        }
-      }
-    },
     copy: {
       main: {
         files: [
@@ -103,17 +74,6 @@ module.exports = function(grunt) {
           // makes all src relative to cwd
           {expand: true, cwd: 'bower_components/font-awesome/', src: ['fonts/*'], dest: 'dist/'}
         ]
-      }
-    },
-    uncss: {
-      dist: {
-        files: {
-          // this reads dist/css/main.css and overwrites it with a lightweight one
-          'dist/css/main.css': ['./index.html']
-        }
-      },
-      options: {
-        compress: false
       }
     },
     connect: {
@@ -137,10 +97,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-uncss');
 
   // Default task:
   // 1. Lint js in js/ folder
@@ -154,8 +112,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('preview-live', ['default', 'connect:production']);
 
-  grunt.registerTask('build-dev', ['jshint', 'clean', 'requirejs', 'concat', 'sass', 'copy']);
-  grunt.registerTask('build-prod', ['jshint', 'clean', 'requirejs', 'concat', 'uglify', 'sass', 'uncss', 'copy']);
+  grunt.registerTask('build-dev', ['jshint', 'clean', 'concat', 'sass', 'copy']);
+  grunt.registerTask('build-prod', ['jshint', 'clean', 'concat', 'uglify', 'sass', 'copy']);
 
   grunt.registerTask('default', ['build-prod']);
 

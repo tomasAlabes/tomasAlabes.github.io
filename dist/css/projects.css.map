@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA;qDACqD;AAMrD,WAAY;EACR,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;;;AAGf,aAAc;EACV,OAAO,EAAE,gBAAgB;;;AAG7B,YAAY;EACR,MAAM,EAAE,MAAM;;;AAGlB,cAAc;EACV,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,IAAI;EACpB,aAAa,EAAE,oBAAoB;;;AAGvC,UAAW;EACT,MAAM,EAAE,IAAI;;;AAGd;qDACqD;AAErD,yBAA0B;EACtB,YAAa;IACT,UAAU,EAAE,IAAI",
-"sources": ["../../scss/projects.scss"],
-"names": [],
-"file": "projects.css"
-}

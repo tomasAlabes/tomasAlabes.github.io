@@ -1,6 +1,5 @@
 http://tomasalabes.me/
 http://tomasalabes.me/blog/_site/index.html
-http://tomasalabes.me/about.html
 http://tomasalabes.me/blog/_site/web-development/2015/09/16/ES6-Classes-For-Java-Developers.html
 http://tomasalabes.me/blog/_site/web-development/2015/09/12/Requirejs-and-CSS.html
 http://tomasalabes.me/blog/_site/web-development/svg/2013/05/28/SVG-VML-views-in-your-Backbone-app-with-Raphael.html
