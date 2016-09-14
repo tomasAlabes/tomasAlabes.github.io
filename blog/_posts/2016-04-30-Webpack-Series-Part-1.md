@@ -162,7 +162,7 @@ And finally the output is:
 ```
 Module proof library.
 
-##externals
+## externals
 Externals can be tricky, specially with all the ways you have for defining them and the combination with the `output.libraryTarget` configuration.
 These dependencies won't be resolved by webpack, but should become dependencies of the resulting bundle. The kind of the dependency depends on `output.libraryTarget`.
 
