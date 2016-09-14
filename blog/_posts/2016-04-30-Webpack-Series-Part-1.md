@@ -7,7 +7,7 @@ categories: web-development
 tags: javascript, webpack
 ---
 
-#Webpack Series (Part 1): Some Configs Explained
+# Webpack Series (Part 1): Some Configs Explained
 
 I've been migrating a big project that used requirejs optimizer to bundle all the javascript modules to Webpack. As everybody knows Webpack's documentation is not the best but the community has helped writing about their experiences and doing tutorials about it.
 
@@ -15,7 +15,7 @@ To do my part I would like to write a series sharing my experiences during my mi
 
 I'll start with Webpack's [configuration](https://webpack.github.io/docs/configuration.html), trying to explain some properties and give more info of what's not in the official docs, with some examples.
 
-##module.noParse
+## module.noParse
 This property can be either a RegEx or an array of RegExs. All matching files will not be parsed by webpack.
 
 ```javascript
@@ -34,7 +34,7 @@ This means that webpack, when requiring them, will bundle them `as is`, without 
 2. You can skip big files that are already optimized, increasing the speed of the build.
 3. Although they are not parsed by webpack, they will be part of your bundle.
 
-##output.libraryTarget
+## output.libraryTarget
 You developed your `magicLibrary` in a very modular fashion using all the power of webpack. But have you thought how your users are going to consume it? Here's where `libraryTarget` config comes in.
 
 _First a quick note, to give your library a name (you should), set the `output.library` config to it._
