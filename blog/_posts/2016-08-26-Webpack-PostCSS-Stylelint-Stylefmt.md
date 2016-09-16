@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Webpack Series (Part 3): Webpack + PostCSS + Stylelint + Stylefmt"
-description: "Working with style"
+title:  "Webpack + PostCSS + Stylelint + Stylefmt"
+description: "Linting styles"
 date:   2016-08-26 12:30:16
 categories: web-development
 tags: javascript, webpack, stylelint, stylefmt

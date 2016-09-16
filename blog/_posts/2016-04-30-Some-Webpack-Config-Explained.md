@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "Webpack Series (Part 1): Some Configs Explained"
+title:  "(Some) Webpack Configuration Options Explained"
 description: "Getting to know Webpack"
 date:   2016-04-30 12:30:16
 categories: web-development
 tags: javascript, webpack
 ---
-
-# Webpack Series (Part 1): Some Configs Explained
 
 I've been migrating a big project that used requirejs optimizer to bundle all the javascript modules to Webpack. As everybody knows Webpack's documentation is not the best but the community has helped writing about their experiences and doing tutorials about it.
 

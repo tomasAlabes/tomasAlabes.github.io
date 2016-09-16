@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Webpack Series (Part 4): Webpack and CSS"
-description: "Working with style"
+title:  "Webpack and CSS"
+description: "Working with Style"
 date:   2016-09-13 12:30:16
 categories: web-development
 tags: javascript, webpack, css, loaders

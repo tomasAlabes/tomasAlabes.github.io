@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Webpack Series (Part 2): Webpack (AMD) + Karma + Mocha"
+title:  "Webpack (AMD) + Karma + Mocha"
 description: "Testing with Webpack"
 date:   2016-05-01 12:30:16
 categories: web-development
