@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Webpack and CSS"
+title:  "Working with Webpack and CSS Loaders"
 description: "Working with Style"
 date:   2016-09-13 12:30:16
 categories: web-development
