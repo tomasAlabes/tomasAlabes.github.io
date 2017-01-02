@@ -1,42 +1,165 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://tomasalabes.me/</loc>
-    <changefreq>Weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://tomasalabes.me/blog/_site/index.html</loc>
-    <changefreq>Weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://tomasalabes.me/blog/_site/web-development/2015/09/16/ES6-Classes-For-Java-Developers.html</loc>
-    <changefreq>Weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://tomasalabes.me/blog/_site/web-development/2015/09/12/Requirejs-and-CSS.html</loc>
-    <changefreq>Weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://tomasalabes.me/blog/_site/web-development/svg/2013/05/28/SVG-VML-views-in-your-Backbone-app-with-Raphael.html</loc>
-    <changefreq>Weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://tomasalabes.me/blog/_site/web-development/svg/2013/05/13/Use-RaphaëlJS-with-AMD-(recent-official-feature).html</loc>
-    <changefreq>Weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://tomasalabes.me/blog/_site/web-development/presentation/2013/03/13/Introduction-to-RaphaelJS.html</loc>
-    <changefreq>Weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://tomasalabes.me/blog/_site/</loc>
-    <changefreq>Weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://tomasalabes.me/blog/_site/feed.xml</loc>
-    <changefreq>Weekly</changefreq>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://tomasalabes.me/</loc>
+  <lastmod>2017-01-02T04:28:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/index.html</loc>
+  <lastmod>2017-01-02T06:27:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/</loc>
+  <lastmod>2017-01-02T06:27:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2016/12/11/Webpack-and-the-public-path.html</loc>
+  <lastmod>2017-01-02T06:27:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2016/09/13/Webpack-Series-Part-4.html</loc>
+  <lastmod>2017-01-02T06:27:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2016/08/26/Webpack-Series-Part-3.html</loc>
+  <lastmod>2017-01-02T06:27:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2016/05/01/Webpack-Series-Part-2.html</loc>
+  <lastmod>2017-01-02T06:27:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2016/04/30/Webpack-Series-Part-1.html</loc>
+  <lastmod>2017-01-02T06:27:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/page2/</loc>
+  <lastmod>2017-01-02T06:27:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2015/09/16/ES6-Classes-For-Java-Developers.html</loc>
+  <lastmod>2017-01-02T06:27:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2015/09/12/Requirejs-and-CSS.html</loc>
+  <lastmod>2017-01-02T06:27:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2013/06/03/How-to-register-your-module-in-bower.html</loc>
+  <lastmod>2017-01-02T06:27:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/svg/2013/05/28/SVG-VML-views-in-your-Backbone-app-with-Raphael.html</loc>
+  <lastmod>2017-01-02T06:27:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/svg/2013/05/13/Use-Rapha%C3%ABlJS-with-AMD-(recent-official-feature).html</loc>
+  <lastmod>2017-01-02T06:27:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/page3/</loc>
+  <lastmod>2017-01-02T06:27:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2013/03/13/Handling-attackers-in-your-web-application.html</loc>
+  <lastmod>2017-01-02T06:27:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/book-review/2013/03/13/Book-Review-Learning-Raphael-JS-Vector-Graphics.html</loc>
+  <lastmod>2017-01-02T06:27:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/presentation/2013/03/13/Introduction-to-RaphaelJS.html</loc>
+  <lastmod>2017-01-02T06:27:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2013/03/08/How-to-get-the-latest-tweets-of-a-group-of-people-with-Twitter-REST-API.html</loc>
+  <lastmod>2017-01-02T06:27:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2013/02/18/Javascript-for-newbies.html</loc>
+  <lastmod>2017-01-02T06:27:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/page4/</loc>
+  <lastmod>2017-01-02T06:27:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/svg/2013/02/17/Convert-SVG-to-Raphael-in-one-step.html</loc>
+  <lastmod>2017-01-02T06:27:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2013/02/06/Using-NodeJS-oAuth-module-to-communicate-with-Twitter-REST-API-1.1.html</loc>
+  <lastmod>2017-01-02T06:27:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2013/01/24/Turn-off-the-lights!-getUserMedia-API-experiment.html</loc>
+  <lastmod>2017-01-02T06:27:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/svg/2012/11/03/Palette-behaviour-with-RaphaelJS.html</loc>
+  <lastmod>2017-01-02T06:27:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://tomasalabes.me/blog/_site/web-development/2012/02/16/Testing-in-Agile-Teams.html</loc>
+  <lastmod>2017-01-02T06:27:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.33</priority>
+</url>
 </urlset>
-<!--<guid value="0810bb0c-b998-485d-bd22-e5d623aab30c" />-->
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
