@@ -21,8 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "~3.0.2",
-    "requirejs": "~2.1.5",
-    "font-awesome": "~4.0.3"
+    "bootstrap-sass": "3.0.2",
+    "font-awesome": "4.2.0"
   }
 }

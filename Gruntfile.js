@@ -20,33 +20,12 @@ module.exports = function(grunt) {
 
       }
     },
-    concat: {
-      dist: {
-        // we concat requirejs with our js code (created in requirejs task)
-        src: ['bower_components/requirejs/require.js', '<%= concat.dist.dest %>'],
-        dest: 'dist/js/app.js'
-      }
-    },
-    uglify: {
-      dist: {
-        src: '<%= concat.dist.dest %>',
-        dest: 'dist/js/app.min.js'
-      }
-    },
-    jshint: {
-      app: {
-        options: {
-          jshintrc: '.jshintrc'
-        },
-        src: ['js/**/*.js']
-      }
-    },
     watch: {
       options:{
         livereload: true
       },
       html: {
-        files: ['*.html', 'projects/projects.html', 'about/about.html']
+        files: ['*.html']
       },
       js: {
         files: ['js/**/*.js'],
@@ -65,17 +44,6 @@ module.exports = function(grunt) {
         tasks: ['jshint:app']
       }
     },
-    copy: {
-      main: {
-        files: [
-          // includes files within path
-          {expand: true, src: ['img/**/*'], dest: 'dist/'},
-
-          // makes all src relative to cwd
-          {expand: true, cwd: 'bower_components/font-awesome/', src: ['fonts/*'], dest: 'dist/'}
-        ]
-      }
-    },
     connect: {
       development: {
         options: {
@@ -92,13 +60,9 @@ module.exports = function(grunt) {
 
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task:
   // 1. Lint js in js/ folder
@@ -112,8 +76,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('preview-live', ['default', 'connect:production']);
 
-  grunt.registerTask('build-dev', ['jshint', 'clean', 'concat', 'sass', 'copy']);
-  grunt.registerTask('build-prod', ['jshint', 'clean', 'concat', 'uglify', 'sass', 'copy']);
+  grunt.registerTask('build-dev', ['clean', 'sass']);
+  grunt.registerTask('build-prod', ['clean', 'sass']);
 
   grunt.registerTask('default', ['build-prod']);
 
