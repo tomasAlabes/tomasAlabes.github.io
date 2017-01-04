@@ -29,6 +29,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/_site/web-development/2017/01/03/Useful-Webpack-Define-Plugin-Usages.html</link>
+     <title>Useful Webpack DefinePlugin Usages</title>
+     <description>Useful Webpack DefinePlugin Usages for your project</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/_site/web-development/2016/12/11/Webpack-and-the-public-path.html</link>
      <title>Webpack and the Public Path Config</title>
      <description>Consuming Webpack Dynamic Resources</description>
@@ -61,19 +69,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2016/04/30/Webpack-Series-Part-1.html</link>
-     <title>(Some) Webpack Configuration Options Explained</title>
-     <description>Getting to know Webpack</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/_site/page2/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/_site/web-development/2016/04/30/Webpack-Series-Part-1.html</link>
+     <title>(Some) Webpack Configuration Options Explained</title>
+     <description>Getting to know Webpack</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -109,19 +117,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/svg/2013/05/13/Use-Rapha%C3%ABlJS-with-AMD-(recent-official-feature).html</link>
-     <title>Use RaphaëlJS with AMD (recent official feature)</title>
-     <description>Showing the recent AMD feature of RaphaelJS</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/_site/page3/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/_site/web-development/svg/2013/05/13/Use-Rapha%C3%ABlJS-with-AMD-(recent-official-feature).html</link>
+     <title>Use RaphaëlJS with AMD (recent official feature)</title>
+     <description>Showing the recent AMD feature of RaphaelJS</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -157,19 +165,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2013/02/18/Javascript-for-newbies.html</link>
-     <title>Javascript for newbies</title>
-     <description>Presentation for people who want to start learning about JS</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/_site/page4/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
      <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/_site/web-development/2013/02/18/Javascript-for-newbies.html</link>
+     <title>Javascript for newbies</title>
+     <description>Presentation for people who want to start learning about JS</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -205,11 +213,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/_site/page5/</link>
+     <title>Tomas Alabes' Blog</title>
+     <description>My personal site's Blog</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/_site/web-development/2012/02/16/Testing-in-Agile-Teams.html</link>
      <title>Testing in Agile Teams</title>
      <description>Presentation about Testing in Agile Teams</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>5</ror:sortOrder>
+     <ror:sortOrder>6</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>
