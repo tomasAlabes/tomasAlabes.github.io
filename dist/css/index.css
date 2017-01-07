@@ -3,6 +3,8 @@ html,
 body {
   height: 100%;
   width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .navbar-brand {
@@ -37,6 +39,17 @@ body {
 }
 .socialList a:hover {
   text-decoration: none;
+  opacity: 0.7;
+}
+.socialList a {
+  color: whitesmoke;
+  opacity: 0.9;
+}
+
+.degree {
+  font-size: 3.2em;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
 .brandMini {

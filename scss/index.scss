@@ -4,6 +4,8 @@ html,
 body {
   height: 100%;
   width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .navbar-brand {
@@ -42,14 +44,22 @@ body {
 
   a:hover {
     text-decoration: none;
+    opacity: 0.7;
+  }
+
+  a {
+    color: whitesmoke;
+    opacity: 0.9;
   }
 
 }
 
-.brandMini{
-  height: 100%;
+.degree {
+  font-size: 3.2em;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
-.brandLarge{
-  //height: 126px;
+.brandMini{
+  height: 100%;
 }
