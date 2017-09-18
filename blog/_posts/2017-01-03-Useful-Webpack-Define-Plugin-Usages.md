@@ -126,7 +126,7 @@ Logger.log("Hello!");
 > If you don't care about your console calls **at all**, you can also use UglifyJS `drop_console` optimization
 > where it removes all the calls to the console.
 
-> Using ESLint? You can add the `/* global DEVELOPMENT */` comment to ignore the error.
+> Using ESLint? You can add the `/* global DEVELOPMENT */` comment to ignore the error, or add the `globals: { DEVELOPMENT: true }` in the `.eslintrc` file.
 
 ### Feature Flags
 

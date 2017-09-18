@@ -11,9 +11,16 @@
   "license": "MIT",
   "devDependencies": {
     "grunt": "1.0.1",
-    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-clean": "1.1.0",
     "grunt-contrib-connect": "1.0.2",
     "grunt-contrib-sass": "1.0.0",
     "grunt-contrib-watch": "1.0.0"
+  },
+  "scripts": {
+    "blog:bundle": "bundle install --path vendor/bundle --gemfile blog/Gemfile",
+    "blog:build": "(cd blog/ && bundle exec jekyll build)",
+    "blog:serve": "(cd blog/ && bundle exec jekyll serve)",
+    "site:serve": "echo \"Make sure you don't have anaconda bothering with a python symlink\" && python -m SimpleHTTPServer",
+    "site:run": "npm run blog:build && npm run site:serve"
   }
 }

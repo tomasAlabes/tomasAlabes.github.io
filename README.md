@@ -13,3 +13,15 @@ Sharing posts in:
 * [reddit](https://www.reddit.com)
 * Twitter @tomasAlabes
 * Newsletters
+
+2 options to run the site:
+
+```
+# Terminal 1
+npm run blog:build
+# Terminal 2
+npm run site:serve
+```
+or
+
+`npm run site:run`
