@@ -8,6 +8,8 @@ highlighter: rouge
 plugins:
   - jekyll-paginate
 
+source: blog/
+
 # Site settings
 title: "Tomas Alabes' Blog"
 description: My personal site's Blog
