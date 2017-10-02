@@ -17,7 +17,7 @@
     "grunt-contrib-watch": "1.0.0"
   },
   "scripts": {
-    "blog:bundle": "bundle install --path vendor/bundle --gemfile blog/Gemfile",
+    "blog:install": "bundle install --gemfile blog/Gemfile",
     "blog:build": "(cd blog/ && bundle exec jekyll build)",
     "blog:serve": "(cd blog/ && bundle exec jekyll serve)",
     "site:serve": "export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin && python -m SimpleHTTPServer",

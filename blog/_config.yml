@@ -5,8 +5,7 @@ kramdown:
   syntax_highlighter: rouge
 
 highlighter: rouge
-gems:
-  - jekyll-admin
+plugins:
   - jekyll-paginate
 
 # Site settings
