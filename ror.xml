@@ -13,7 +13,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/index.html</link>
+     <link>http://tomasalabes.me/blog/index.html</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -21,7 +21,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/</link>
+     <link>http://tomasalabes.me/blog/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -29,7 +29,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2017/01/03/Useful-Webpack-Define-Plugin-Usages.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2017/01/03/Useful-Webpack-Define-Plugin-Usages.html</link>
      <title>Useful Webpack DefinePlugin Usages</title>
      <description>Useful Webpack DefinePlugin Usages for your project</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -37,7 +37,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2016/12/11/Webpack-and-the-public-path.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2016/12/11/Webpack-and-the-public-path.html</link>
      <title>Webpack and the Public Path Config</title>
      <description>Consuming Webpack Dynamic Resources</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -45,7 +45,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2016/09/13/Webpack-Series-Part-4.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2016/09/13/Webpack-Series-Part-4.html</link>
      <title>Working with Webpack and CSS Loaders</title>
      <description>Working with Style</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -53,7 +53,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2016/08/26/Webpack-Series-Part-3.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2016/08/26/Webpack-Series-Part-3.html</link>
      <title>Webpack + PostCSS + Stylelint + Stylefmt</title>
      <description>Linting styles</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -61,7 +61,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2016/05/01/Webpack-Series-Part-2.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2016/05/01/Webpack-Series-Part-2.html</link>
      <title>Webpack (AMD) + Karma + Mocha</title>
      <description>Testing with Webpack</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -69,7 +69,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/page2/</link>
+     <link>http://tomasalabes.me/blog/page2/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -77,7 +77,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2016/04/30/Webpack-Series-Part-1.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2016/04/30/Webpack-Series-Part-1.html</link>
      <title>(Some) Webpack Configuration Options Explained</title>
      <description>Getting to know Webpack</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -85,7 +85,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2015/09/16/ES6-Classes-For-Java-Developers.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2015/09/16/ES6-Classes-For-Java-Developers.html</link>
      <title>Javascript ES6 Classes for Java Developers</title>
      <description>Concepts of Java classes in ES6 Javascript</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -93,7 +93,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2015/09/12/Requirejs-and-CSS.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2015/09/12/Requirejs-and-CSS.html</link>
      <title>Adding CSS with Requirejs</title>
      <description>Technique for using CSS with Requirejs</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -101,7 +101,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2013/06/03/How-to-register-your-module-in-bower.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2013/06/03/How-to-register-your-module-in-bower.html</link>
      <title>How to register your library or component in Bower</title>
      <description>How to register your library or component in Bower</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -109,7 +109,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/svg/2013/05/28/SVG-VML-views-in-your-Backbone-app-with-Raphael.html</link>
+     <link>http://tomasalabes.me/blog/web-development/svg/2013/05/28/SVG-VML-views-in-your-Backbone-app-with-Raphael.html</link>
      <title>SVG/VML views in your Backbone app with Raphael</title>
      <description>Adding SVG/VML views to your backbone app</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -117,7 +117,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/page3/</link>
+     <link>http://tomasalabes.me/blog/page3/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -125,7 +125,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/svg/2013/05/13/Use-Rapha%C3%ABlJS-with-AMD-(recent-official-feature).html</link>
+     <link>http://tomasalabes.me/blog/web-development/svg/2013/05/13/Use-Rapha%C3%ABlJS-with-AMD-(recent-official-feature).html</link>
      <title>Use RaphaëlJS with AMD (recent official feature)</title>
      <description>Showing the recent AMD feature of RaphaelJS</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -133,7 +133,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2013/03/13/Handling-attackers-in-your-web-application.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2013/03/13/Handling-attackers-in-your-web-application.html</link>
      <title>Handling attackers in your web application</title>
      <description>Techniques for handling attackers in your web application</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -141,7 +141,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/book-review/2013/03/13/Book-Review-Learning-Raphael-JS-Vector-Graphics.html</link>
+     <link>http://tomasalabes.me/blog/web-development/book-review/2013/03/13/Book-Review-Learning-Raphael-JS-Vector-Graphics.html</link>
      <title>Book review: Learning Raphaël JS Vector Graphics</title>
      <description>Book review: Learning Raphaël JS Vector Graphics</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -149,7 +149,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/presentation/2013/03/13/Introduction-to-RaphaelJS.html</link>
+     <link>http://tomasalabes.me/blog/web-development/presentation/2013/03/13/Introduction-to-RaphaelJS.html</link>
      <title>Introduction to RaphaelJS</title>
      <description>Presentation to start learning RaphaelJS</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -157,7 +157,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2013/03/08/How-to-get-the-latest-tweets-of-a-group-of-people-with-Twitter-REST-API.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2013/03/08/How-to-get-the-latest-tweets-of-a-group-of-people-with-Twitter-REST-API.html</link>
      <title>How to get the latest tweets of a group of people with Twitter REST API</title>
      <description>How to get the latest tweets of a group of people with Twitter REST API</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -165,7 +165,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/page4/</link>
+     <link>http://tomasalabes.me/blog/page4/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -173,7 +173,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2013/02/18/Javascript-for-newbies.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2013/02/18/Javascript-for-newbies.html</link>
      <title>Javascript for newbies</title>
      <description>Presentation for people who want to start learning about JS</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -181,7 +181,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/svg/2013/02/17/Convert-SVG-to-Raphael-in-one-step.html</link>
+     <link>http://tomasalabes.me/blog/web-development/svg/2013/02/17/Convert-SVG-to-Raphael-in-one-step.html</link>
      <title>Convert SVG to Raphael in one step</title>
      <description>Quick way to convert SVG to Raphael in one step</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -189,7 +189,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2013/02/06/Using-NodeJS-oAuth-module-to-communicate-with-Twitter-REST-API-1.1.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2013/02/06/Using-NodeJS-oAuth-module-to-communicate-with-Twitter-REST-API-1.1.html</link>
      <title>Using NodeJS oAuth module to communicate with Twitter REST API 1.1</title>
      <description>Using NodeJS oAuth module to communicate with Twitter REST API 1.1</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -197,7 +197,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2013/01/24/Turn-off-the-lights!-getUserMedia-API-experiment.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2013/01/24/Turn-off-the-lights!-getUserMedia-API-experiment.html</link>
      <title>Turn off the lights! getUserMedia API experiment</title>
      <description>getUserMedia API experiment</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -205,7 +205,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/svg/2012/11/03/Palette-behaviour-with-RaphaelJS.html</link>
+     <link>http://tomasalabes.me/blog/web-development/svg/2012/11/03/Palette-behaviour-with-RaphaelJS.html</link>
      <title>Palette behaviour with RaphaelJS</title>
      <description>Creating a palette behaviour with RaphaelJS library</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -213,7 +213,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/page5/</link>
+     <link>http://tomasalabes.me/blog/page5/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -221,7 +221,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/_site/web-development/2012/02/16/Testing-in-Agile-Teams.html</link>
+     <link>http://tomasalabes.me/blog/web-development/2012/02/16/Testing-in-Agile-Teams.html</link>
      <title>Testing in Agile Teams</title>
      <description>Presentation about Testing in Agile Teams</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
