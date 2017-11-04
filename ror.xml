@@ -29,6 +29,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/web-development/2017/10/03/Migrating-a-bower-module-to-npm-yarn.html</link>
+     <title>5 Steps to migrating your module from Bower to NPM/Yarn</title>
+     <description>Bower is on its way out, it's time to move to NPM/Yarn</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/web-development/2017/01/03/Useful-Webpack-Define-Plugin-Usages.html</link>
      <title>Useful Webpack DefinePlugin Usages</title>
      <description>Useful Webpack DefinePlugin Usages for your project</description>
@@ -61,19 +69,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2016/05/01/Webpack-Series-Part-2.html</link>
-     <title>Webpack (AMD) + Karma + Mocha</title>
-     <description>Testing with Webpack</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page2/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2016/05/01/Webpack-Series-Part-2.html</link>
+     <title>Webpack (AMD) + Karma + Mocha</title>
+     <description>Testing with Webpack</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -109,14 +117,6 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/svg/2013/05/28/SVG-VML-views-in-your-Backbone-app-with-Raphael.html</link>
-     <title>SVG/VML views in your Backbone app with Raphael</title>
-     <description>Adding SVG/VML views to your backbone app</description>
-     <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page3/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
@@ -125,9 +125,9 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/svg/2013/05/13/Use-Rapha%C3%ABlJS-with-AMD-(recent-official-feature).html</link>
-     <title>Use RaphaëlJS with AMD (recent official feature)</title>
-     <description>Showing the recent AMD feature of RaphaelJS</description>
+     <link>http://tomasalabes.me/blog/web-development/svg/2013/05/28/SVG-VML-views-in-your-Backbone-app-with-Raphael.html</link>
+     <title>SVG/VML views in your Backbone app with Raphael</title>
+     <description>Adding SVG/VML views to your backbone app</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
      <ror:sortOrder>4</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
