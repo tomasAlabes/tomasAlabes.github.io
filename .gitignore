@@ -1,12 +1,6 @@
 .idea/
 *.iml
-
-bower_components
-node_modules
 .sass-cache
-
 .DS_Store
-_site
 
-blog/vendor
-blog/.bundle
+node_modules

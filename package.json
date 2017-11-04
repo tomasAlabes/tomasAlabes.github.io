@@ -3,17 +3,20 @@
   "description": "Tomas Alabes personal website",
   "version": "1.0.0",
   "homepage": "http://tomasAlabes.me/",
-  "author": {
-    "name": "Tomas Alabes",
-    "email": "tomas.alabes@gmail.com",
-    "url": "http://tomasAlabes.me/"
-  },
+  "author": "Tomas Alabes <tomas.alabes@gmail.com> (http://tomasAlabes.me/)",
   "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "3.3.7",
+    "font-awesome": "4.2.0"
+  },
   "devDependencies": {
     "grunt": "1.0.1",
     "grunt-contrib-clean": "1.1.0",
     "grunt-contrib-connect": "1.0.2",
     "grunt-contrib-sass": "1.0.0",
     "grunt-contrib-watch": "1.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:tomasAlabes/tomasAlabes.github.io.git",
+  "private": true
 }
