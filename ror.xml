@@ -29,6 +29,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/graphql/2018/04/22/integrating-reactive-grpc-with-graphql.html</link>
+     <title>Integrating reactive gRPC in Node with GraphQL</title>
+     <description>Using the reactive power of rxjs with graphQL</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/2018/04/13/making-grpc-in-node-reactive.html</link>
      <title>Making a node gRPC client reactive with rxjs</title>
      <description>Applying the reactive paradigm to a gRPC client</description>
@@ -61,19 +69,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2016/12/11/Webpack-and-the-public-path.html</link>
-     <title>Webpack and the Public Path Config</title>
-     <description>Consuming Webpack Dynamic Resources</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page2/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2016/12/11/Webpack-and-the-public-path.html</link>
+     <title>Webpack and the Public Path Config</title>
+     <description>Consuming Webpack Dynamic Resources</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -109,19 +117,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2015/09/16/ES6-Classes-For-Java-Developers.html</link>
-     <title>Javascript ES6 Classes for Java Developers</title>
-     <description>Concepts of Java classes in ES6 Javascript</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page3/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2015/09/16/ES6-Classes-For-Java-Developers.html</link>
+     <title>Javascript ES6 Classes for Java Developers</title>
+     <description>Concepts of Java classes in ES6 Javascript</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -157,19 +165,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/book-review/2013/03/13/Book-Review-Learning-Raphael-JS-Vector-Graphics.html</link>
-     <title>Book review: Learning Raphaël JS Vector Graphics</title>
-     <description>Book review: Learning Raphaël JS Vector Graphics</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page4/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/book-review/2013/03/13/Book-Review-Learning-Raphael-JS-Vector-Graphics.html</link>
+     <title>Book review: Learning Raphaël JS Vector Graphics</title>
+     <description>Book review: Learning Raphaël JS Vector Graphics</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -205,19 +213,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2013/02/06/Using-NodeJS-oAuth-module-to-communicate-with-Twitter-REST-API-1.1.html</link>
-     <title>Using NodeJS oAuth module to communicate with Twitter REST API 1.1</title>
-     <description>Using NodeJS oAuth module to communicate with Twitter REST API 1.1</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>5</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page5/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2013/02/06/Using-NodeJS-oAuth-module-to-communicate-with-Twitter-REST-API-1.1.html</link>
+     <title>Using NodeJS oAuth module to communicate with Twitter REST API 1.1</title>
+     <description>Using NodeJS oAuth module to communicate with Twitter REST API 1.1</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>6</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
