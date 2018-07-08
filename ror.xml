@@ -29,6 +29,22 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/nodejs/grpc/typescript/2018/07/07/typing-grpc.html</link>
+     <title>Typing gRPC with Node &amp; Typescript</title>
+     <description>Using protobuf.js to type your gRPC client</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/graphql/hystrixjs/2018/05/06/circuit-breaking-node-grpc-calls.html</link>
+     <title>Easily Circuit Breaking gRPC Node calls with Hystrixjs in a graphQL server</title>
+     <description>Using hystrixjs as circuit braker</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/graphql/2018/04/22/integrating-reactive-grpc-with-graphql.html</link>
      <title>Integrating reactive gRPC in Node with GraphQL</title>
      <description>Using the reactive power of rxjs with graphQL</description>
@@ -53,11 +69,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/page2/</link>
+     <title>Tomas Alabes' Blog</title>
+     <description>My personal site's Blog</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/web-development/2017/10/03/Migrating-a-bower-module-to-npm-yarn.html</link>
      <title>5 Steps to migrating your module from Bower to NPM/Yarn</title>
      <description>Bower is on its way out, it's time to move to NPM/Yarn</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
+     <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -65,15 +89,7 @@
      <title>Useful Webpack DefinePlugin Usages</title>
      <description>Useful Webpack DefinePlugin Usages for your project</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://tomasalabes.me/blog/page2/</link>
-     <title>Tomas Alabes' Blog</title>
-     <description>My personal site's Blog</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
+     <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -101,11 +117,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/page3/</link>
+     <title>Tomas Alabes' Blog</title>
+     <description>My personal site's Blog</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/web-development/2016/05/01/Webpack-Series-Part-2.html</link>
      <title>Webpack (AMD) + Karma + Mocha</title>
      <description>Testing with Webpack</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
+     <ror:sortOrder>4</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -113,15 +137,7 @@
      <title>(Some) Webpack Configuration Options Explained</title>
      <description>Getting to know Webpack</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://tomasalabes.me/blog/page3/</link>
-     <title>Tomas Alabes' Blog</title>
-     <description>My personal site's Blog</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
+     <ror:sortOrder>4</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -149,11 +165,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/page4/</link>
+     <title>Tomas Alabes' Blog</title>
+     <description>My personal site's Blog</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/web-development/svg/2013/05/28/SVG-VML-views-in-your-Backbone-app-with-Raphael.html</link>
      <title>SVG/VML views in your Backbone app with Raphael</title>
      <description>Adding SVG/VML views to your backbone app</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
+     <ror:sortOrder>5</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -161,15 +185,7 @@
      <title>Handling attackers in your web application</title>
      <description>Techniques for handling attackers in your web application</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://tomasalabes.me/blog/page4/</link>
-     <title>Tomas Alabes' Blog</title>
-     <description>My personal site's Blog</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
+     <ror:sortOrder>5</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -197,11 +213,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/page5/</link>
+     <title>Tomas Alabes' Blog</title>
+     <description>My personal site's Blog</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/web-development/2013/02/18/Javascript-for-newbies.html</link>
      <title>Javascript for newbies</title>
      <description>Presentation for people who want to start learning about JS</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>5</ror:sortOrder>
+     <ror:sortOrder>6</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -209,15 +233,7 @@
      <title>Convert SVG to Raphael in one step</title>
      <description>Quick way to convert SVG to Raphael in one step</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>5</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://tomasalabes.me/blog/page5/</link>
-     <title>Tomas Alabes' Blog</title>
-     <description>My personal site's Blog</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>5</ror:sortOrder>
+     <ror:sortOrder>6</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -245,11 +261,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/page6/</link>
+     <title>Tomas Alabes' Blog</title>
+     <description>My personal site's Blog</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>6</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/web-development/2012/02/16/Testing-in-Agile-Teams.html</link>
      <title>Testing in Agile Teams</title>
      <description>Presentation about Testing in Agile Teams</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>6</ror:sortOrder>
+     <ror:sortOrder>7</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>
