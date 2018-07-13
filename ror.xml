@@ -29,6 +29,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/nodejs/graphql/2018/07/11/modularizing-graphql.html</link>
+     <title>Modularizing your graphQL schemas</title>
+     <description>Use graphql-import to modulize your graphql schemas</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/nodejs/grpc/typescript/2018/07/07/typing-grpc.html</link>
      <title>Typing gRPC with Node &amp; Typescript</title>
      <description>Using protobuf.js to type your gRPC client</description>
@@ -61,19 +69,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/privacy/2017/11/10/Using-encrypted-google-search-by-default.html</link>
-     <title>Configuring Google Encrypted search by default in Chrome</title>
-     <description>A bit of privacy when searching in google</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page2/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/privacy/2017/11/10/Using-encrypted-google-search-by-default.html</link>
+     <title>Configuring Google Encrypted search by default in Chrome</title>
+     <description>A bit of privacy when searching in google</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -109,19 +117,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2016/08/26/Webpack-Series-Part-3.html</link>
-     <title>Webpack + PostCSS + Stylelint + Stylefmt</title>
-     <description>Linting styles</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page3/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2016/08/26/Webpack-Series-Part-3.html</link>
+     <title>Webpack + PostCSS + Stylelint + Stylefmt</title>
+     <description>Linting styles</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -157,19 +165,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2013/06/03/How-to-register-your-module-in-bower.html</link>
-     <title>How to register your library or component in Bower</title>
-     <description>How to register your library or component in Bower</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page4/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2013/06/03/How-to-register-your-module-in-bower.html</link>
+     <title>How to register your library or component in Bower</title>
+     <description>How to register your library or component in Bower</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -205,19 +213,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2013/03/08/How-to-get-the-latest-tweets-of-a-group-of-people-with-Twitter-REST-API.html</link>
-     <title>How to get the latest tweets of a group of people with Twitter REST API</title>
-     <description>How to get the latest tweets of a group of people with Twitter REST API</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>5</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page5/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2013/03/08/How-to-get-the-latest-tweets-of-a-group-of-people-with-Twitter-REST-API.html</link>
+     <title>How to get the latest tweets of a group of people with Twitter REST API</title>
+     <description>How to get the latest tweets of a group of people with Twitter REST API</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>6</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -253,19 +261,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/svg/2012/11/03/Palette-behaviour-with-RaphaelJS.html</link>
-     <title>Palette behaviour with RaphaelJS</title>
-     <description>Creating a palette behaviour with RaphaelJS library</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>6</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page6/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>6</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/svg/2012/11/03/Palette-behaviour-with-RaphaelJS.html</link>
+     <title>Palette behaviour with RaphaelJS</title>
+     <description>Creating a palette behaviour with RaphaelJS library</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>7</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
