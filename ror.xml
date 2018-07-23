@@ -29,6 +29,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://tomasalabes.me/blog/nodejs/graphql/typescript/2018/07/23/typing-gql.html</link>
+     <title>Using Typescript in a graphQL server</title>
+     <description>A small summary and opinion</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://tomasalabes.me/blog/nodejs/graphql/2018/07/11/modularizing-graphql.html</link>
      <title>Modularizing your graphQL schemas</title>
      <description>Use graphql-import to modulize your graphql schemas</description>
@@ -61,19 +69,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/2018/04/13/making-grpc-in-node-reactive.html</link>
-     <title>Making a node gRPC client reactive with rxjs</title>
-     <description>Applying the reactive paradigm to a gRPC client</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page2/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/2018/04/13/making-grpc-in-node-reactive.html</link>
+     <title>Making a node gRPC client reactive with rxjs</title>
+     <description>Applying the reactive paradigm to a gRPC client</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -109,19 +117,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2016/09/13/Webpack-Series-Part-4.html</link>
-     <title>Working with Webpack and CSS Loaders</title>
-     <description>Working with Style</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page3/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2016/09/13/Webpack-Series-Part-4.html</link>
+     <title>Working with Webpack and CSS Loaders</title>
+     <description>Working with Style</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -157,19 +165,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2015/09/12/Requirejs-and-CSS.html</link>
-     <title>Adding CSS with Requirejs</title>
-     <description>Technique for using CSS with Requirejs</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page4/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2015/09/12/Requirejs-and-CSS.html</link>
+     <title>Adding CSS with Requirejs</title>
+     <description>Technique for using CSS with Requirejs</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -205,19 +213,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/presentation/2013/03/13/Introduction-to-RaphaelJS.html</link>
-     <title>Introduction to RaphaelJS</title>
-     <description>Presentation to start learning RaphaelJS</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>5</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page5/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/presentation/2013/03/13/Introduction-to-RaphaelJS.html</link>
+     <title>Introduction to RaphaelJS</title>
+     <description>Presentation to start learning RaphaelJS</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>6</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -253,19 +261,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://tomasalabes.me/blog/web-development/2013/01/24/Turn-off-the-lights!-getUserMedia-API-experiment.html</link>
-     <title>Turn off the lights! getUserMedia API experiment</title>
-     <description>getUserMedia API experiment</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>6</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://tomasalabes.me/blog/page6/</link>
      <title>Tomas Alabes' Blog</title>
      <description>My personal site's Blog</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>6</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://tomasalabes.me/blog/web-development/2013/01/24/Turn-off-the-lights!-getUserMedia-API-experiment.html</link>
+     <title>Turn off the lights! getUserMedia API experiment</title>
+     <description>getUserMedia API experiment</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>7</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
