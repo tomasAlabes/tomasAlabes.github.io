@@ -1,5 +1,5 @@
 {
-  "name": "TomasAlabes.me",
+  "name": "tomasalabes-me",
   "description": "Tomas Alabes personal website",
   "version": "1.0.0",
   "homepage": "http://tomasAlabes.me/",
@@ -7,14 +7,18 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap-sass": "3.3.7",
-    "font-awesome": "4.2.0"
+    "font-awesome": "4.7.0"
   },
   "devDependencies": {
-    "grunt": "1.0.1",
+    "grunt": "1.0.3",
     "grunt-contrib-clean": "1.1.0",
     "grunt-contrib-connect": "1.0.2",
     "grunt-contrib-sass": "1.0.0",
-    "grunt-contrib-watch": "1.0.0"
+    "grunt-contrib-watch": "1.1.0",
+    "prettier": "1.14.0"
+  },
+  "scripts": {
+    "prettier": "prettier --use-tabs --write *.js"
   },
   "main": "index.js",
   "repository": "git@github.com:tomasAlabes/tomasAlabes.github.io.git",
