@@ -5,7 +5,7 @@ importScripts(
 if (workbox) {
 	workbox.core.setCacheNameDetails({
 		prefix: "tomasalabes-me",
-		suffix: "v1"
+		suffix: "v2"
 	});
 
 	workbox.googleAnalytics.initialize();
@@ -39,7 +39,7 @@ if (workbox) {
 	);
 
 	workbox.routing.registerRoute(
-		/\.(?:js|css)$/,
+		/\.(?:js|css|html)$/,
 		workbox.strategies.staleWhileRevalidate({
 			cacheName: "static-resources"
 		})
