@@ -9,48 +9,43 @@
 
 <url>
   <loc>https://tomasalabes.me/</loc>
-  <lastmod>2018-08-08T01:00:09+00:00</lastmod>
+  <lastmod>2018-08-22T03:03:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://tomasalabes.me/blog/index.html</loc>
-  <lastmod>2018-08-12T03:43:39+00:00</lastmod>
+  <lastmod>2018-09-04T02:34:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tomasalabes.me/blog/</loc>
-  <lastmod>2018-08-12T03:43:39+00:00</lastmod>
+  <lastmod>2018-09-04T02:34:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tomasalabes.me/blog/development/book-review/2018/09/04/google-sre-review.html</loc>
+  <lastmod>2018-09-04T02:34:21+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tomasalabes.me/blog/graphql/node/microservices/2018/08/11/graphql-architectures.html</loc>
-  <lastmod>2018-08-12T03:43:39+00:00</lastmod>
+  <lastmod>2018-09-04T02:34:21+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tomasalabes.me/blog/nodejs/graphql/typescript/2018/07/23/typing-gql.html</loc>
-  <lastmod>2018-08-12T03:43:39+00:00</lastmod>
+  <lastmod>2018-09-04T02:34:21+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tomasalabes.me/blog/nodejs/graphql/2018/07/11/modularizing-graphql.html</loc>
-  <lastmod>2018-08-12T03:43:39+00:00</lastmod>
+  <lastmod>2018-09-04T02:34:21+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tomasalabes.me/blog/nodejs/grpc/typescript/2018/07/07/typing-grpc.html</loc>
-  <lastmod>2018-08-12T03:43:39+00:00</lastmod>
+  <lastmod>2018-09-04T02:34:21+00:00</lastmod>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/graphql/hystrixjs/2018/05/06/circuit-breaking-node-grpc-calls.html</loc>
-  <lastmod>2018-08-12T03:43:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/2018/04/13/making-grpc-in-node-reactive.html</loc>
-  <lastmod>2018-08-12T03:43:39+00:00</lastmod>
-  <priority>0.51</priority>
 </url>
 
 

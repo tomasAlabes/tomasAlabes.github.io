@@ -29,6 +29,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://tomasalabes.me/blog/development/book-review/2018/09/04/google-sre-review.html</link>
+     <title>Mini-Summary &amp; Review of "Site Reliability Engineering" Book</title>
+     <description>A small summary and opinion</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://tomasalabes.me/blog/graphql/node/microservices/2018/08/11/graphql-architectures.html</link>
      <title>GraphQL Gateway Architectures</title>
      <description>Exploring different GraphQL gateway architectures</description>
@@ -58,22 +66,6 @@
      <description>Using protobuf.js to type your gRPC client</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/graphql/hystrixjs/2018/05/06/circuit-breaking-node-grpc-calls.html</link>
-     <title>Easily Circuit Breaking gRPC Node calls with Hystrixjs in a graphQL server</title>
-     <description>Using hystrixjs as circuit braker</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/2018/04/13/making-grpc-in-node-reactive.html</link>
-     <title>Making a node gRPC client reactive with rxjs</title>
-     <description>Applying the reactive paradigm to a gRPC client</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>

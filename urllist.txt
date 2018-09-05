@@ -1,9 +1,8 @@
 https://tomasalabes.me/
 https://tomasalabes.me/blog/index.html
 https://tomasalabes.me/blog/
+https://tomasalabes.me/blog/development/book-review/2018/09/04/google-sre-review.html
 https://tomasalabes.me/blog/graphql/node/microservices/2018/08/11/graphql-architectures.html
 https://tomasalabes.me/blog/nodejs/graphql/typescript/2018/07/23/typing-gql.html
 https://tomasalabes.me/blog/nodejs/graphql/2018/07/11/modularizing-graphql.html
 https://tomasalabes.me/blog/nodejs/grpc/typescript/2018/07/07/typing-grpc.html
-https://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/graphql/hystrixjs/2018/05/06/circuit-breaking-node-grpc-calls.html
-https://tomasalabes.me/blog/nodejs/grpc/reactive/rxjs/2018/04/13/making-grpc-in-node-reactive.html
