@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: tomasalabes.me
+Token: 2278b02fbb6d1cfa18d68dc4dee7df575794ce4ab1608679fcc0ff118b8a0c09
