@@ -2,11 +2,11 @@
   "name": "TomasAlabes.me",
   "description": "Tomas Alabes personal website",
   "version": "1.0.0",
-  "homepage": "http://tomasAlabes.me/",
+  "homepage": "https://tomasAlabes.me/",
   "author": {
     "name": "Tomas Alabes",
     "email": "tomas.alabes@gmail.com",
-    "url": "http://tomasAlabes.me/"
+    "url": "https://tomasAlabes.me/"
   },
   "license": "MIT",
   "devDependencies": {
@@ -14,13 +14,15 @@
     "grunt-contrib-clean": "1.1.0",
     "grunt-contrib-connect": "1.0.2",
     "grunt-contrib-sass": "1.0.0",
-    "grunt-contrib-watch": "1.0.0"
+    "grunt-contrib-watch": "1.0.0",
+    "sass": "^1.69.5"
   },
   "scripts": {
     "blog:install": "bundle install --gemfile blog/Gemfile",
     "blog:build": "(cd blog/ && bundle exec jekyll build)",
     "blog:serve": "(cd blog/ && bundle exec jekyll serve)",
-    "site:serve": "export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin && python -m SimpleHTTPServer",
+    "site:serve": "python3 -m SimpleHTTPServer",
     "site:run": "npm run blog:build && npm run site:serve"
-  }
+  },
+  "packageManager": "yarn@4.0.1"
 }
